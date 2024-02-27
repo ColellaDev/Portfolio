@@ -1,5 +1,9 @@
+import { NavBar } from "./components/NavBar"
+
 export function App() {
   return (
-    <h1>Hello World!</h1>
+    <NavBar/>
+    
+
   )
 }

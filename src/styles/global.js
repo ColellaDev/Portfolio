@@ -1,5 +1,6 @@
 import { createGlobalStyle } from 'styled-components'
 
+
 export default createGlobalStyle`
   * {
     margin: 0;
@@ -11,10 +12,13 @@ export default createGlobalStyle`
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND};
     color: ${({ theme }) => theme.COLORS.PRIMARY};
 
+    font-family: "Spline Sans", sans-serif;
+
   }
 
   a {
     text-decoration: none;
+    color: ${({ theme }) => theme.COLORS.PRIMARY};
   }
 
   button, a {
