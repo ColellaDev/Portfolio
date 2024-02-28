@@ -8,7 +8,8 @@ align-items: center;
 padding: 2rem;
 
 > h1 {
-
+    
+    
 }
 
 > ul {

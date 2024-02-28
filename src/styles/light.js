@@ -4,6 +4,7 @@ export default {
     COLORS: {
       
       BACKGROUND: "#e0aaff",
+      TOGGLE: "#312E38",
       
       PRIMARY: "#240046",
   
