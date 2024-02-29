@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import Switch from 'react-switch';
-import { Container } from './styles';
+import { Container, StyledLink } from './styles';
 import { useTheme } from "styled-components"
 import { ThemeContext } from '../../styles/theme';
 
@@ -11,13 +11,13 @@ const {toggleTheme} = useContext(ThemeContext)
   return (
     <Container>
 
-      <h1>Marcos Colella</h1>  
+      <h1><span>{"{ "}</span>Marcos Colella<span>{" }"}</span></h1>  
       <ul>
-        <li><a href="#Home">Home</a></li>
-        <li><a href="#Profile">Profile</a></li>
-        <li><a href="#Skills">Skills</a></li>
-        <li><a href="#Projetos">Projetos</a></li>
-        <li><a href="#Contato">Contato</a></li>
+        <li><StyledLink href="#Home">Home</StyledLink></li>
+        <li><StyledLink href="#Profile">Profile</StyledLink></li>
+        <li><StyledLink href="#Skills">Skills</StyledLink></li>
+        <li><StyledLink href="#Projetos">Projetos</StyledLink></li>
+        <li><StyledLink href="#Contato">Contato</StyledLink></li>
       </ul>
       
       <Switch

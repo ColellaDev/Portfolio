@@ -15,19 +15,18 @@ export default createGlobalStyle`
 
     font-family: "Spline Sans", sans-serif;
 
+    padding: 2rem;
+
   }
 
-  a {
-    text-decoration: none;
-    color: ${({ theme }) => theme.COLORS.PRIMARY};
-  }
-
+ /* 
   button, a {
     cursor: pointer;
-    transition: filter 0.2s;
+    transition: filter 0.3s;
   }
 
   button:hover, a:hover {
-    filter: brightness(0.9);
+    filter: brightness(0.8);
   }
+  */
 `
