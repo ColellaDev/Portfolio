@@ -1,8 +1,8 @@
 import React from 'react';
 import { NavBar } from './components/NavBar';
 
-export function App({ toggleTheme }) {
+export function App() {
   return (
-    <NavBar toggleTheme={toggleTheme} />
+    <NavBar/>
   );
 }

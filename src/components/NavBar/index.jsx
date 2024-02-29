@@ -1,17 +1,17 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import Switch from 'react-switch';
 import { Container } from './styles';
-import { ThemeContext } from "styled-components"
-import { useContext } from 'react';
+import { useTheme } from "styled-components"
+import { ThemeContext } from '../../styles/theme';
 
-export function NavBar({ toggleTheme }) {
-  
-const { TITLE, COLORS } = useContext(ThemeContext)
+export function NavBar() {
+const { TITLE, COLORS } = useTheme()
+const {toggleTheme} = useContext(ThemeContext)
 
   return (
     <Container>
 
-      <h1>Marcos Colella</h1>
+      <h1>Marcos Colella</h1>  
       <ul>
         <li><a href="#Home">Home</a></li>
         <li><a href="#Profile">Profile</a></li>
@@ -19,7 +19,7 @@ const { TITLE, COLORS } = useContext(ThemeContext)
         <li><a href="#Projetos">Projetos</a></li>
         <li><a href="#Contato">Contato</a></li>
       </ul>
-
+      
       <Switch
         onChange={toggleTheme}
         checked={TITLE == "light"}
