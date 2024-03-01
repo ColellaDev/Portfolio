@@ -20,15 +20,13 @@ align-items: center;
     align-items: center;
     gap: 3rem;
     font-weight: 600;
-}
-`
 
-export const StyledLink = styled.a`
-  position: relative;
-  cursor: pointer;
-  color: ${({ theme }) => theme.COLORS.PRIMARY};
+    li {
+      position: relative;
+     cursor: pointer;
+     color: ${({ theme }) => theme.COLORS.PRIMARY};
 
-  &:before {
+     &:before {
     content: '';
     position: absolute;
     left: 0;
@@ -52,4 +50,8 @@ export const StyledLink = styled.a`
     color: ${({ theme }) => theme.COLORS.SECUNDARY};
    
   }
-`;
+    }
+
+   
+}
+`
