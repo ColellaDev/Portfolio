@@ -15,9 +15,19 @@ export default createGlobalStyle`
 
     font-family: "Spline Sans", sans-serif;
 
+    span {
+    color: ${({theme}) => theme.COLORS.SECUNDARY}
+    }
+
+    a {
+      text-decoration: none;
+    }
+
     padding: 2rem;
 
   }
+
+  
 
  /* 
   button, a {

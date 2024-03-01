@@ -4,18 +4,11 @@ export const Container = styled.div`
 height: 4rem;
 padding: 2rem;
 font-size: 1.25rem;
+//position: fixed;
+width: 100%;
 display: flex;
 justify-content: space-between;
 align-items: center;
-
-span {
-    color: ${({theme}) => theme.COLORS.SECUNDARY}
-}
-
-> h1 {
-    
-}
-
 
 > ul {
     list-style: none; 
@@ -24,15 +17,12 @@ span {
     gap: 3rem;
     font-weight: 600;
 }
-
 `
 
 export const StyledLink = styled.a`
   position: relative;
-  text-decoration: none;
+  cursor: pointer;
   color: ${({ theme }) => theme.COLORS.PRIMARY};
-
-
 
   &:before {
     content: '';
@@ -51,9 +41,11 @@ export const StyledLink = styled.a`
     transform: scale(1);
     transform-origin: left;
     background-color: ${({ theme }) => theme.COLORS.SECUNDARY};
+    box-shadow: 0px 0px 5px 0.7px ${({theme}) => theme.COLORS.SECUNDARY}
   }
   &:hover{
     transition: 0.4s ease-in-out;
     color: ${({ theme }) => theme.COLORS.SECUNDARY};
+   
   }
 `;
