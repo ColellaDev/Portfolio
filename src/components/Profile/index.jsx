@@ -9,12 +9,12 @@ import curriculo from "../../assets/CurriculoMarcosColella.pdf"
 
 
 
-export function Profile() {
+export function Home() {
 
     const { TITLE } = useTheme()
 
     return(
-        <Container id="Profile">
+        <Container id="Home">
             <Hero>
                 <About>
                  <h4>Olá,  eu sou</h4>

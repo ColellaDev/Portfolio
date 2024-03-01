@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const Container = styled.div`
-margin-top: 8rem;
+margin-top: 13rem;
 min-height: 100vh;
 `
 
@@ -22,8 +22,8 @@ export const About = styled.div`
  }
 
   p {
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
  }
 
  

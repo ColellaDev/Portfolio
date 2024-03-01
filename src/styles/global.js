@@ -24,19 +24,5 @@ export default createGlobalStyle`
     }
 
     padding: 2rem;
-
   }
-
-  
-
- /* 
-  button, a {
-    cursor: pointer;
-    transition: filter 0.3s;
-  }
-
-  button:hover, a:hover {
-    filter: brightness(0.8);
-  }
-  */
 `

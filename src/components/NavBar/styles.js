@@ -1,10 +1,14 @@
 import styled from "styled-components"
 
 export const Container = styled.div`
+ position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
 height: 4rem;
-padding: 2rem;
+padding: 4rem;
 font-size: 1.25rem;
-//position: fixed;
 width: 100%;
 display: flex;
 justify-content: space-between;
