@@ -1,4 +1,4 @@
-import { Container, Hero, About, Links, Avatar, TopBlur, BottomBlur } from "./styles"
+import { Container, Hero, About, Links, Avatar } from "./styles"
 import { useTheme } from "styled-components"
 import { CiLinkedin } from "react-icons/ci";
 import { AiOutlineMail } from "react-icons/ai";
@@ -52,9 +52,6 @@ export function Home() {
                  </Avatar>
             </Hero>
             
-            <TopBlur background={TITLE === "dark" ? "rgba(25, 55, 109, 1)" : "rgb(221, 208, 255)"} />
-            <BottomBlur background={TITLE === "dark" ? "rgba(25, 55, 109, 1)" : "rgb(221, 208, 255)"} />
-
         </Container>
     )
 }

@@ -68,38 +68,9 @@ export const Links = styled.div`
 export const Avatar = styled.div`
   img {
     width: 20rem;
-
     border-radius: 31% 69% 73% 27% / 35% 58% 42% 65%;
     border-color: ${({ theme }) => theme.COLORS.PRIMARY};
     border: solid;
     box-shadow: 14px 0px 41px 19px rgba(62, 66, 66, 0.22);
   }
-`
-
-export const TopBlur = styled.div`
-  position: absolute;
-  width: 50vw;
-  height: 50vw;
-  min-width: 350px;
-  min-width: 350px;
-  top: -128px;
-  left: -10vw;
-  border-radius: 764px;
-  background: ${({ background }) => background};
-  filter: blur(100px);
-  z-index: -1;
-`
-
-export const BottomBlur = styled.div`
-  position: absolute;
-  width: 70vw;
-  height: 50vw;
-  min-width: 350px;
-  min-width: 250px;
-  top: 246px;
-  right: -25vw;
-  border-radius: 764px;
-  background: ${({ background }) => background};
-  filter: blur(100px);
-  z-index: -1;
 `

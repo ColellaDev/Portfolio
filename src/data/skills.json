@@ -1,0 +1,42 @@
+[
+    {
+        "title": "HTML",
+        "imageSrc": "https://skillicons.dev/icons?i=html"
+    },
+    {
+        "title": "CSS",
+        "imageSrc": "https://skillicons.dev/icons?i=css"
+    },
+    {
+        "title": "React",
+        "imageSrc": "https://skillicons.dev/icons?i=react"
+    },
+    {
+        "title": "Styled Components",
+        "imageSrc": "https://skillicons.dev/icons?i=styledcomponents"
+    },
+    {
+        "title": "Git",
+        "imageSrc": "https://skillicons.dev/icons?i=git"
+    },
+    {
+        "title": "Github",
+        "imageSrc": "https://skillicons.dev/icons?i=github"
+    },
+    {
+        "title": "NodeJS",
+        "imageSrc": "https://skillicons.dev/icons?i=nodejs"
+    },
+    {
+        "title": "Vite",
+        "imageSrc": "https://skillicons.dev/icons?i=vite"
+    },
+    {
+        "title": "Figma",
+        "imageSrc": "https://skillicons.dev/icons?i=figma"
+    },
+    {
+        "title": "SQLite",
+        "imageSrc": "https://skillicons.dev/icons?i=sqlite"
+    }
+]
