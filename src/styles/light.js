@@ -4,10 +4,12 @@ export default {
     COLORS: {
       
       BACKGROUND: "#F5F5F5",
-      TOGGLE: "#312E38",
+      //BACKGROUND: "#F3D9FF",
+      //BACKGROUND: "#ffeedd",
+     //BACKGROUND: "#caf0f8",
       
       PRIMARY: "#10002B",
-      SECUNDARY: "#3D8989",
+      SECUNDARY: "#4c007d",
   
       RED: "#FF002E",
       GRAY: "#CCCCCC"

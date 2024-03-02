@@ -6,8 +6,7 @@ import { AiOutlineGithub } from "react-icons/ai";
 import avatarDark from "../../assets/avatarDark.png"
 import avatarLight from "../../assets/avatarLight.png"
 import curriculo from "../../assets/CurriculoMarcosColella.pdf"
-
-
+import { ReactTyped } from "react-typed";
 
 export function Home() {
 
@@ -19,7 +18,17 @@ export function Home() {
                 <About>
                  <h4>Olá,  eu sou</h4>
                  <h2>Marcos Colella</h2>
-                 <h3><span>Desenvolvedor Front End</span></h3>
+                 <ReactTyped
+                    
+                    strings={[
+                        "Desenvolvedor Front End",
+                        "Apaixonado por programação"
+                    ]}
+                    typeSpeed={60}
+                    backSpeed={35}
+                    loop
+                 />
+                 
                  <p>
                  Crio interfaces responsivas para diversos dispositivos aplicando conceitos de clean code
                   e reutilização de código.
@@ -35,17 +44,16 @@ export function Home() {
                 
                 </About>
 
-
                  <Avatar>
                 { TITLE == "dark" ? 
-                  <img src={avatarDark} alt="Foto Perfil Marcos Colella"/> :
-                  <img src={avatarLight} alt="Foto Perfil Marcos Colella"/>
+                  <img src={avatarLight} alt="Foto Perfil Marcos Colella"/> :
+                  <img src={avatarDark} alt="Foto Perfil Marcos Colella"/>
                 }
                  </Avatar>
             </Hero>
             
-            <TopBlur background={TITLE === "dark" ? "rgba(25, 55, 109, 1)" : "rgba(25, 55, 109, 0.2)"} />
-            <BottomBlur background={TITLE === "dark" ? "rgba(25, 55, 109, 1)" : "rgba(25, 55, 109, 0.2)"} />
+            <TopBlur background={TITLE === "dark" ? "rgba(25, 55, 109, 1)" : "rgb(221, 208, 255)"} />
+            <BottomBlur background={TITLE === "dark" ? "rgba(25, 55, 109, 1)" : "rgb(221, 208, 255)"} />
 
         </Container>
     )

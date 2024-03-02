@@ -28,12 +28,12 @@ const {toggleTheme} = useContext(ThemeContext)
         height={22}
         width={45}
         handleDiameter={20}
-        
+
         checkedIcon={<FiMoon />}
         uncheckedIcon={<IoSunny color="yellow"/>}
         
         offHandleColor={COLORS.PRIMARY}
-        onHandleColor={COLORS.PRIMARY}
+        onHandleColor={COLORS.SECUNDARY}
 
         onColor={COLORS.GRAY}
         offColor={COLORS.GRAY}
