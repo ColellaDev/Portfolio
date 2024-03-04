@@ -1,30 +1,30 @@
 [
     {
-        "title": "RocketStars",
-        "imageSrc": "rocketmovie.png",
+        "title": "MovieStars",
+        "imageSrc": "moviestars.png",
         "description": "O RocketStars é uma aplicação full-stack desenvolvida para criar notas e avaliar os filmes que você assistiu.",
+        "demo": "https://notesdevcolella.netlify.app/",
+        "code": "https://github.com/ColellaDev/RocketNotes"
+    },
+    {
+        "title": "RocketNotes",
+        "imageSrc": "rocketnotes.png",
+        "description": "O Rocket Notes é uma aplicação full-stack desenvolvida para organizar e gerenciar suas notas de forma eficiente.",
         "demo": "https://moviesdevcolella.netlify.app/",
         "code": "https://github.com/ColellaDev/RocketMovies"
     },
     {
-        "title": "RocketStars",
-        "imageSrc": "rocketmovie.png",
-        "description": "O RocketStars é uma aplicação full-stack desenvolvida para criar notas e avaliar os filmes que você assistiu.",
-        "demo": "https://moviesdevcolella.netlify.app/",
-        "code": "https://github.com/ColellaDev/RocketMovies"
+        "title": "Focus Timer",
+        "imageSrc": "focustimer.png",
+        "description": "Projeto com foco em estudo de JavaScript, sons, volume, timer e funções de media.",
+        "demo": "https://colelladev.github.io/Desafio07.FocusTimer/",
+        "code": "https://github.com/ColellaDev/Desafio07.FocusTimer?tab=readme-ov-file"
     },
     {
-        "title": "RocketStars",
-        "imageSrc": "rocketmovie.png",
-        "description": "O RocketStars é uma aplicação full-stack desenvolvida para criar notas e avaliar os filmes que você assistiu.",
-        "demo": "https://moviesdevcolella.netlify.app/",
-        "code": "https://github.com/ColellaDev/RocketMovies"
-    },
-    {
-        "title": "RocketStars",
-        "imageSrc": "rocketmovie.png",
-        "description": "O RocketStars é uma aplicação full-stack desenvolvida para criar notas e avaliar os filmes que você assistiu.",
-        "demo": "https://moviesdevcolella.netlify.app/",
-        "code": "https://github.com/ColellaDev/RocketMovies"
+        "title": "Space Cream",
+        "imageSrc": "spacecream.png",
+        "description": "Projeto para estudar responsividade,  grid e animações.",
+        "demo": "https://colelladev.github.io/desafio06responsividade/",
+        "code": "https://github.com/ColellaDev/desafio06responsividade?tab=readme-ov-file"
     }
 ]
