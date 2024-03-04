@@ -37,23 +37,26 @@ export const HardSkills = styled.div`
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-    border: solid;
+    height: 0%;
     border-radius: 1rem;
     padding: 1rem;
-    background-color: ${({ theme }) => theme.COLORS.BACKGROUND};
+    background: linear-gradient(0deg, ${({ theme }) => theme.COLORS.SECUNDARY} 0%, ${({ theme }) => theme.COLORS.BACKGROUND} 35%);
     color: ${({ theme }) => theme.COLORS.PRIMARY};
     font-size: 1.1rem;
     opacity: 0;
+    transition: 0.6s ;
   }
 
   .imageContainer:hover .tooltip {
     opacity: 1;
-    transition: opacity 0.3s ease-in-out;
+    height: 100%;
   }
 
   img {
     width: 4.5rem;
+    border: solid;
+    border-radius: 1rem;
+    color: ${({ theme }) => theme.COLORS.BACKGROUND};
   }
 `;
 
