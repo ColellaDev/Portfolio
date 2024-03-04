@@ -21,10 +21,12 @@ export function Skills() {
                   <Zoom cascade="true" duration="400">
                    {
                       skills.map((skills, id) => {
-                        return <div className="imageContainer" key={id}>
-                          <div><img src={skills.imageSrc} alt={skills.title}/></div>
-                          <div className="tooltip">{skills.title}</div>
-                              </div>
+                        return ( 
+                          <div className="imageContainer" key={id}>
+                             <div><img src={skills.imageSrc} alt={skills.title}/></div>
+                             <div className="tooltip">{skills.title}</div>
+                          </div>
+                        )
                        })
                    } 
                   </Zoom>
