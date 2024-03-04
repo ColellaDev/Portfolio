@@ -74,5 +74,15 @@ export const Softskills = styled.div`
       font-size: 2rem;
       margin-right: 1rem;
     }
+
+    &:hover {
+        svg {
+            scale: 1.2;
+            color: ${({ theme }) => theme.COLORS.SECUNDARY};
+            transition: 0.3s ease-in-out;
+        }
+      
+    }
+   
   }
 `;

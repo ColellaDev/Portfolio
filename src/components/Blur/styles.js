@@ -30,11 +30,11 @@ export const HomeRight = styled.div`
 
 export const SkillsLeft = styled.div`
   position: absolute;
-  width: 50vw;
+  width: 45vw;
   height: 25vw;
   min-width: 350px;
-  top: 1200px;
-  left: 6vw;
+  top: 1250px;
+  left: -3vw;
   border-radius: 764px;
   background: ${({ background }) => background};
   filter: blur(100px);
@@ -46,7 +46,7 @@ export const ProjectsRight = styled.div`
   width: 70vw;
   height: 50vw;
   min-width: 350px;
-  top: 1700px;
+  top: 1600px;
   right: -25vw;
   border-radius: 764px;
   background: ${({ background }) => background};
