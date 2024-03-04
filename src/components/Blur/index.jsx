@@ -7,10 +7,10 @@ export function Blur() {
 
     return (
      <>
-    <HomeLeft background={TITLE === "dark" ? "rgba(25, 55, 109, 1)" : "rgb(221, 208, 255)"} />
-    <HomeRight background={TITLE === "dark" ? "rgba(25, 55, 109, 1)" : "rgb(221, 208, 255)"} />
-    <SkillsLeft  background={TITLE === "dark" ? "rgba(25, 55, 109, 1)" : "rgb(221, 208, 255)"}/>
-    <ProjectsRight  background={TITLE === "dark" ? "rgba(25, 55, 109, 1)" : "rgb(221, 208, 255)"}/>
-    </>
+     <HomeLeft background={TITLE === "dark" ? "rgba(25, 55, 109, 1)" : "rgb(221, 208, 255)"} />
+     <HomeRight background={TITLE === "dark" ? "rgba(25, 55, 109, 1)" : "rgb(221, 208, 255)"} />
+     <SkillsLeft  background={TITLE === "dark" ? "rgba(25, 55, 109, 1)" : "rgb(221, 208, 255)"}/>
+     <ProjectsRight  background={TITLE === "dark" ? "rgba(25, 55, 109, 1)" : "rgb(221, 208, 255)"}/>
+     </>
     )
 }

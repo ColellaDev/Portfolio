@@ -9,7 +9,7 @@ export const Container = styled.div`
   height: 4rem;
   padding: 4rem;
   font-size: 1.25rem;
-  width: 100%;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -45,7 +45,7 @@ export const Container = styled.div`
         background-color: ${({ theme }) => theme.COLORS.SECUNDARY};
         box-shadow: 0px 0px 5px 0.7px ${({ theme }) => theme.COLORS.SECUNDARY};
       }
-      
+
       &:hover {
         transition: 0.4s ease-in-out;
         color: ${({ theme }) => theme.COLORS.SECUNDARY};

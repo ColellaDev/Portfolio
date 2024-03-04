@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   margin-top: 13rem;
   min-height: 100vh;
-`
+`;
 
 export const Hero = styled.div`
   font-size: 1.3rem;
@@ -12,7 +12,7 @@ export const Hero = styled.div`
   justify-content: center;
   align-items: center;
   gap: 20rem;
-`
+`;
 
 export const About = styled.div`
   width: 32rem;
@@ -30,7 +30,7 @@ export const About = styled.div`
     margin-top: 2rem;
     margin-bottom: 3rem;
   }
-`
+`;
 
 export const Links = styled.div`
   display: flex;
@@ -63,7 +63,7 @@ export const Links = styled.div`
       box-shadow: 0px 0px 10px 4px ${({ theme }) => theme.COLORS.SECUNDARY};
     }
   }
-`
+`;
 
 export const Avatar = styled.div`
   img {
@@ -73,4 +73,4 @@ export const Avatar = styled.div`
     border: solid;
     box-shadow: 14px 0px 41px 19px rgba(62, 66, 66, 0.22);
   }
-`
+`;

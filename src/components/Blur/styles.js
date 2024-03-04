@@ -1,6 +1,4 @@
-import styled from "styled-components"
-
-
+import styled from "styled-components";
 
 export const HomeLeft = styled.div`
   position: absolute;
@@ -13,7 +11,7 @@ export const HomeLeft = styled.div`
   background: ${({ background }) => background};
   filter: blur(100px);
   z-index: -1;
-`
+`;
 
 export const HomeRight = styled.div`
   position: absolute;
@@ -26,7 +24,7 @@ export const HomeRight = styled.div`
   background: ${({ background }) => background};
   filter: blur(100px);
   z-index: -1;
-`
+`;
 
 export const SkillsLeft = styled.div`
   position: absolute;
@@ -39,7 +37,7 @@ export const SkillsLeft = styled.div`
   background: ${({ background }) => background};
   filter: blur(100px);
   z-index: -1;
-`
+`;
 
 export const ProjectsRight = styled.div`
   position: absolute;
@@ -52,4 +50,4 @@ export const ProjectsRight = styled.div`
   background: ${({ background }) => background};
   filter: blur(100px);
   z-index: -1;
-`
+`;

@@ -15,6 +15,7 @@ const {toggleTheme} = useContext(ThemeContext)
     <Container>
 
       <h1><span>{"{ "}</span>Marcos Colella<span>{" }"}</span></h1>  
+      
       <ul>
         <li><ScrollLink to="Home" smooth={true} offset={-250} duration={500}>Home</ScrollLink></li>
         <li><ScrollLink to="Skills" smooth={true} offset={-190} duration={500}>Skills</ScrollLink></li>
