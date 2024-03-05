@@ -7,6 +7,10 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
 
+  @media (max-width: ${DEVICE.MD}) {
+      margin-bottom: 5.7rem;
+    }
+
   h1 {
     font-size: 2.5rem;
   }
@@ -14,7 +18,7 @@ export const Container = styled.div`
   .projectsCard {
     display: flex;
     margin-top: 8rem;
-    gap: 1rem;
+    gap: 4rem;
 
     @media (max-width: ${DEVICE.MD}) {
       flex-direction: column;

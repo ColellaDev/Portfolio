@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { DEVICE } from "../../styles/deviceBreakpoints"
+import { DEVICE } from "../../styles/deviceBreakpoints";
 
 export const Container = styled.div`
   position: fixed;
@@ -54,15 +54,53 @@ export const Container = styled.div`
     }
   }
 
-  @media (max-width: ${DEVICE.MD}){
+  @media (max-width: ${DEVICE.MD}) {
+    justify-content: flex-end;
+    gap: 3rem;
 
     h1 {
+      margin-right: 17rem;
       font-size: 1.8rem;
     }
 
     ul {
+      margin-right: 3rem;
+      position: absolute;
+      right: 0;
+      top: 90px;
       font-size: 1rem;
-      display: none;
+      flex-direction: column;
+      gap: 2rem;
     }
+
+    .menu-visible {
+      visibility: visible;
+      opacity: 1;
+      transform: translateY(0);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+
+    .menu-hidden {
+      visibility: hidden;
+      opacity: 0;
+      transform: translateY(-30%);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+  }
+`;
+
+export const Menu = styled.button`
+  background: none;
+  border: none;
+  display: none;
+  cursor: pointer;
+
+  > svg {
+    font-size: 2.2rem;
+    color: ${({ theme }) => theme.COLORS.SECUNDARY};
+  }
+
+  @media (max-width: ${DEVICE.MD}) {
+    display: block;
   }
 `;

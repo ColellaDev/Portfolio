@@ -14,10 +14,18 @@ export const Hero = styled.div`
   gap: 20rem;
 
   @media (max-width: ${DEVICE.MD}) {
-    flex-direction: column;
-    gap: 4rem;
-    margin-top: 8rem;
+    flex-direction: column-reverse;
+    gap: 3rem;
+    margin-top: 10rem;
+   
   }
+
+  @media (max-width: ${DEVICE.SM}) {
+    background-color: red;
+    font-size: 2rem;
+    
+  }
+  
 `;
 
 export const About = styled.div`

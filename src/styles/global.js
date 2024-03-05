@@ -1,10 +1,20 @@
 import { createGlobalStyle } from 'styled-components'
+import { DEVICE } from "../styles/deviceBreakpoints";
 
 export default createGlobalStyle`
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+  }
+
+  :root {
+    font-size: 16px;
+
+    @media (max-width: ${DEVICE.MD}) {
+    
+      font-size: 14px;
+  }
   }
 
   body {
