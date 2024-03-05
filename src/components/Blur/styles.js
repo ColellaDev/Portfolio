@@ -51,3 +51,16 @@ export const ProjectsRight = styled.div`
   filter: blur(100px);
   z-index: -1;
 `;
+
+export const ProjectsLeft = styled.div`
+  position: absolute;
+  width: 45vw;
+  height: 25vw;
+  min-width: 350px;
+  top: 2350px;
+  left: -10vw;
+  border-radius: 764px;
+  background: ${({ background }) => background};
+  filter: blur(100px);
+  z-index: -1;
+`;
