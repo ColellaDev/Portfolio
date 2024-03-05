@@ -11,10 +11,22 @@ export default createGlobalStyle`
   :root {
     font-size: 16px;
 
-    @media (max-width: ${DEVICE.MD}) {
-    
+    @media (max-width: ${DEVICE.LG}) {
+      font-size: 15px;
+     };
+
+     @media (max-width: ${DEVICE.MD}) {
       font-size: 14px;
-  }
+     };
+
+     @media (max-width: ${DEVICE.SM}) {
+      font-size: 10px;
+     };
+
+    @media (max-width: ${DEVICE.XS}) {
+      font-size: 8px;
+     };
+    
   }
 
   body {
@@ -26,6 +38,10 @@ export default createGlobalStyle`
     
     font-family: "Spline Sans", sans-serif;
     padding: 2rem;
+
+    @media (max-width: ${DEVICE.SM}) {
+      padding: 1rem;
+     }
 
     span {
     color: ${({theme}) => theme.COLORS.SECUNDARY}

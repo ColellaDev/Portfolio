@@ -1,4 +1,4 @@
-import { Container, Hero, About, Links, Avatar } from "./styles"
+import { Hero, About, Links, Avatar } from "./styles"
 import { useTheme } from "styled-components"
 import { CiLinkedin } from "react-icons/ci";
 import { AiOutlineMail } from "react-icons/ai";
@@ -14,8 +14,7 @@ export function Home() {
     const { TITLE } = useTheme()
 
     return(
-     <Container id="Home">
-         <Hero>
+         <Hero id="Home">
 
             <Slide direction="left">
                  <About>
@@ -56,7 +55,6 @@ export function Home() {
                 </Avatar>
             </Slide>
 
-        </Hero>     
-    </Container>
+        </Hero> 
     )
 }

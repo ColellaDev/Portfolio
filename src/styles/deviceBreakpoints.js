@@ -1,4 +1,6 @@
 export const DEVICE = {
+XS: "320px",
+SM: "425px",
 MD: "768px",
-SM: "425px"
+LG: "1024px"
 }

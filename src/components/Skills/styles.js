@@ -2,10 +2,10 @@ import styled from "styled-components";
 import { DEVICE } from "../../styles/deviceBreakpoints";
 
 export const Container = styled.div`
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 15rem;
 
   h1 {
     font-size: 2.5rem;
@@ -18,10 +18,20 @@ export const Container = styled.div`
     gap: 20rem;
     margin-top: 8rem;
 
+    @media (max-width: ${DEVICE.LG}) {
+      margin-bottom: 10rem;
+      gap: 4rem;
+    }
+
     @media (max-width: ${DEVICE.MD}) {
       flex-direction: column;
       margin-top: 5rem;
+      margin-bottom: 4rem;
       gap: 3rem;
+    }
+
+    @media (max-width: ${DEVICE.SM}) {
+      margin-bottom: -4rem;
     }
   }
 `;

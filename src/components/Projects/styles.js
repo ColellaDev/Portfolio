@@ -2,14 +2,18 @@ import styled from "styled-components";
 import { DEVICE } from "../../styles/deviceBreakpoints";
 
 export const Container = styled.div`
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 15rem;
 
   @media (max-width: ${DEVICE.MD}) {
-      margin-bottom: 5.7rem;
-    }
+    margin-bottom: 5.7rem;
+  }
+
+  @media (max-width: ${DEVICE.SM}) {
+    margin-top: 1rem;
+  }
 
   h1 {
     font-size: 2.5rem;
@@ -17,14 +21,24 @@ export const Container = styled.div`
 
   .projectsCard {
     display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+
     margin-top: 8rem;
     gap: 4rem;
 
+    @media (max-width: ${DEVICE.LG}) {
+      margin-left: 7rem;
+      gap: 4rem;
+      margin-bottom: 8rem;
+    }
+
     @media (max-width: ${DEVICE.MD}) {
       flex-direction: column;
+      margin-left: 0rem;
       gap: 3.5rem;
       margin-top: 4rem;
-      margin-bottom: 8rem;
     }
   }
 

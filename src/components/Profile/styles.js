@@ -1,31 +1,29 @@
 import styled from "styled-components";
 import { DEVICE } from "../../styles/deviceBreakpoints";
 
-export const Container = styled.div`
-  min-height: 100vh;
-`;
-
 export const Hero = styled.div`
   font-size: 1.3rem;
-  margin-top: 13rem;
+  margin-top: 17rem;
+  margin-bottom: 19rem;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20rem;
 
+  @media (max-width: ${DEVICE.LG}) {
+    margin-bottom: 30rem;
+    gap: 3rem;
+  }
+
   @media (max-width: ${DEVICE.MD}) {
     flex-direction: column-reverse;
     gap: 3rem;
     margin-top: 10rem;
-   
   }
 
   @media (max-width: ${DEVICE.SM}) {
-    background-color: red;
-    font-size: 2rem;
-    
+    margin-bottom: 6rem;
   }
-  
 `;
 
 export const About = styled.div`

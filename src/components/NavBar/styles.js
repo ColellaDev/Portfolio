@@ -3,6 +3,7 @@ import { DEVICE } from "../../styles/deviceBreakpoints";
 
 export const Container = styled.div`
   position: fixed;
+  z-index: 1;
   top: 0;
   left: 0;
   width: 100%;
@@ -71,6 +72,11 @@ export const Container = styled.div`
       font-size: 1rem;
       flex-direction: column;
       gap: 2rem;
+
+      @media (max-width: ${DEVICE.SM}) {
+        right: 0;
+        top: 50px;
+      }
     }
 
     .menu-visible {
@@ -87,6 +93,27 @@ export const Container = styled.div`
       transition: opacity 0.6s ease, transform 0.6s ease;
     }
   }
+
+  @media (max-width: ${DEVICE.SM}) {
+    h1 {
+      margin-right: 5rem;
+      font-size: 2rem;
+    }
+    padding: 1rem;
+  }
+
+  @media (max-width: ${DEVICE.XS}) {
+    padding: 1rem;
+
+    svg {
+      font-size: 2.3rem;
+    }
+
+    h1 {
+      margin-right: 2rem;
+      font-size: 1.9rem;
+    }
+  }
 `;
 
 export const Menu = styled.button`
@@ -98,9 +125,17 @@ export const Menu = styled.button`
   > svg {
     font-size: 2.2rem;
     color: ${({ theme }) => theme.COLORS.SECUNDARY};
+
+    &:hover {
+      opacity: 0.7;
+    }
   }
 
   @media (max-width: ${DEVICE.MD}) {
     display: block;
+  }
+
+  @media (max-width: ${DEVICE.SM}) {
+    padding: 2.5rem;
   }
 `;
