@@ -34,8 +34,8 @@ export function Projects() {
             {
                 projects.map((projects, id) => {
                     return (
-                        <Zoom>
-                        <div className="card" key={id} data-tilt>
+                        <Zoom key={id}>
+                        <div className="card"  data-tilt>
                             
                             <img src={getImageUrl(projects.imageSrc)} alt={`Imagem do Projeto ${projects.title}`}/>
                             <h3>{projects.title}</h3>

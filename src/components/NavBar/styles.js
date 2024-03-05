@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { DEVICE } from "../../styles/deviceBreakpoints"
 
 export const Container = styled.div`
   position: fixed;
@@ -50,6 +51,18 @@ export const Container = styled.div`
         transition: 0.4s ease-in-out;
         color: ${({ theme }) => theme.COLORS.SECUNDARY};
       }
+    }
+  }
+
+  @media (max-width: ${DEVICE.MD}){
+
+    h1 {
+      font-size: 1.8rem;
+    }
+
+    ul {
+      font-size: 1rem;
+      display: none;
     }
   }
 `;

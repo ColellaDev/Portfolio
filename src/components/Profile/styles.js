@@ -1,17 +1,23 @@
 import styled from "styled-components";
+import { DEVICE } from "../../styles/deviceBreakpoints";
 
 export const Container = styled.div`
-  margin-top: 13rem;
   min-height: 100vh;
 `;
 
 export const Hero = styled.div`
   font-size: 1.3rem;
-
+  margin-top: 13rem;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20rem;
+
+  @media (max-width: ${DEVICE.MD}) {
+    flex-direction: column;
+    gap: 4rem;
+    margin-top: 8rem;
+  }
 `;
 
 export const About = styled.div`

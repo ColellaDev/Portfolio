@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { DEVICE } from "../../styles/deviceBreakpoints";
 
 export const Container = styled.div`
   min-height: 100vh;
@@ -13,7 +14,14 @@ export const Container = styled.div`
   .projectsCard {
     display: flex;
     margin-top: 8rem;
-    gap: 3rem;
+    gap: 1rem;
+
+    @media (max-width: ${DEVICE.MD}) {
+      flex-direction: column;
+      gap: 3.5rem;
+      margin-top: 4rem;
+      margin-bottom: 8rem;
+    }
   }
 
   .card {

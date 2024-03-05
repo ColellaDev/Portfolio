@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { DEVICE } from "../../styles/deviceBreakpoints";
 
 export const Container = styled.div`
   min-height: 100vh;
@@ -16,6 +17,12 @@ export const Container = styled.div`
     align-items: center;
     gap: 20rem;
     margin-top: 8rem;
+
+    @media (max-width: ${DEVICE.MD}) {
+      flex-direction: column;
+      margin-top: 5rem;
+      gap: 3rem;
+    }
   }
 `;
 
@@ -40,11 +47,15 @@ export const HardSkills = styled.div`
     height: 0%;
     border-radius: 1rem;
     padding: 1rem;
-    background: linear-gradient(0deg, ${({ theme }) => theme.COLORS.SECUNDARY} 0%, ${({ theme }) => theme.COLORS.BACKGROUND} 35%);
+    background: linear-gradient(
+      0deg,
+      ${({ theme }) => theme.COLORS.SECUNDARY} 0%,
+      ${({ theme }) => theme.COLORS.BACKGROUND} 35%
+    );
     color: ${({ theme }) => theme.COLORS.PRIMARY};
     font-size: 1.1rem;
     opacity: 0;
-    transition: 0.6s ;
+    transition: 0.6s;
   }
 
   .imageContainer:hover .tooltip {
@@ -79,13 +90,11 @@ export const Softskills = styled.div`
     }
 
     &:hover {
-        svg {
-            scale: 1.2;
-            color: ${({ theme }) => theme.COLORS.SECUNDARY};
-            transition: 0.3s ease-in-out;
-        }
-      
+      svg {
+        scale: 1.2;
+        color: ${({ theme }) => theme.COLORS.SECUNDARY};
+        transition: 0.3s ease-in-out;
+      }
     }
-   
   }
 `;
