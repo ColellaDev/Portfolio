@@ -59,7 +59,7 @@ export const HardSkills = styled.div`
     padding: 1rem;
     background: linear-gradient(
       0deg,
-      ${({ theme }) => theme.COLORS.SECUNDARY} 0%,
+      ${({ theme }) => theme.COLORS.SECUNDARY} -5%,
       ${({ theme }) => theme.COLORS.BACKGROUND} 35%
     );
     color: ${({ theme }) => theme.COLORS.PRIMARY};

@@ -7,7 +7,7 @@ export const Container = styled.div`
   top: 0;
   left: 0;
   width: 100%;
-
+  backdrop-filter: blur(10px);
   height: 4rem;
   padding: 4rem;
   font-size: 1.25rem;
