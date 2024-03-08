@@ -78,6 +78,14 @@ export const Form = styled.form`
     border: 1px solid;
     border-color: ${({ theme }) => theme.COLORS.SECUNDARY};
 
+    &:focus-within {
+      box-shadow: 0px 0px 5px 2px ${({ theme }) => theme.COLORS.SECUNDARY};
+
+      svg {
+        scale: 1.2;
+      }
+      }
+
     input, textarea {
       width: 100%;
       border: none;
@@ -85,7 +93,6 @@ export const Form = styled.form`
       color: ${({ theme }) => theme.COLORS.PRIMARY};
       background-color: transparent;
       padding: 1rem 0.5rem;
-    
     }
 
     span {
