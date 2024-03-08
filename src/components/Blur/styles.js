@@ -44,7 +44,7 @@ export const ProjectsRight = styled.div`
   width: 70vw;
   height: 50vw;
   min-width: 350px;
-  top: 1600px;
+  top: 1400px;
   right: -25vw;
   border-radius: 764px;
   background: ${({ background }) => background};
@@ -54,11 +54,37 @@ export const ProjectsRight = styled.div`
 
 export const ProjectsLeft = styled.div`
   position: absolute;
-  width: 45vw;
+  width: 35vw;
   height: 25vw;
   min-width: 350px;
-  top: 2350px;
+  top: 2050px;
   left: -10vw;
+  border-radius: 764px;
+  background: ${({ background }) => background};
+  filter: blur(100px);
+  z-index: -1;
+`;
+
+export const ContactRight = styled.div`
+  position: absolute;
+  width: 65vw;
+  height: 35vw;
+  min-width: 350px;
+  top: 2550px;
+  right: -25vw;
+  border-radius: 664px;
+  background: ${({ background }) => background};
+  filter: blur(100px);
+  z-index: -1;
+`;
+
+export const ContactLeft = styled.div`
+  position: absolute;
+  width: 50vw;
+  height: 23vw;
+  min-width: 350px;
+  top: 2800px;
+  left: -15vw;
   border-radius: 764px;
   background: ${({ background }) => background};
   filter: blur(100px);

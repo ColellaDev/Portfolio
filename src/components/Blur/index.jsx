@@ -1,4 +1,4 @@
-import { HomeLeft, HomeRight, SkillsLeft, ProjectsRight, ProjectsLeft } from './styles';
+import { HomeLeft, HomeRight, SkillsLeft, ProjectsRight, ProjectsLeft, ContactRight, ContactLeft } from './styles';
 import { useTheme } from "styled-components"
 
 export function Blur() {
@@ -12,6 +12,8 @@ export function Blur() {
      <SkillsLeft  background={TITLE === "dark" ? "#1d2333" : "rgb(233, 224, 255)"}/>
      <ProjectsRight  background={TITLE === "dark" ? "#1d2333" : "rgb(230, 220, 255)"}/>
      <ProjectsLeft  background={TITLE === "dark" ? "#1c2642" : "rgb(221, 208, 255)"}/>
+     <ContactRight  background={TITLE === "dark" ? "#1d2333" : "rgb(230, 220, 255)"}/>
+     <ContactLeft  background={TITLE === "dark" ? "#1c2642" : "rgb(221, 208, 255)"}/>
      </>
     )
 
