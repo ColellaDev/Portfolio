@@ -6,6 +6,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import { CgProfile } from "react-icons/cg";
 import { FiAtSign } from "react-icons/fi";
 import { BiMessageAltDetail } from "react-icons/bi";
+import { Slide } from "react-awesome-reveal";
 
 
 export function Contact() {
@@ -16,6 +17,8 @@ export function Contact() {
          <h1>Contatos</h1>
 
         <div className="contatos">
+
+        <Slide>
             <Profile>
                 <div className="info">
                     <h2>Me contate diretamente:</h2>
@@ -39,7 +42,9 @@ export function Contact() {
                 </div>
 
             </Profile>
+            </Slide>
 
+            <Slide direction="right">
              <Form>
                 <div className="name">
                     <span><CgProfile/></span>
@@ -55,6 +60,7 @@ export function Contact() {
                 </div>
                 <button>Enviar</button>
             </Form>
+            </Slide>
         </div>
 
 
