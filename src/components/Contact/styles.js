@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { DEVICE } from "../../styles/deviceBreakpoints";
 
 export const Container = styled.div`
   display: flex;
@@ -15,6 +16,11 @@ export const Container = styled.div`
   .contatos {
     display: flex;
     gap: 20rem;
+
+    @media (max-width: ${DEVICE.MD}){
+      flex-direction: column;
+      gap: 4rem;
+    }
   }
 `;
 
