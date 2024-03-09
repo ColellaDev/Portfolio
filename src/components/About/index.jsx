@@ -1,10 +1,14 @@
 import { Container } from "./styles"
 import {Zoom, Slide} from "react-awesome-reveal";
+import { useTheme } from "styled-components"
 import aboutImage from "../../assets/aboutImage.jpg"
 import aboutImage2 from "../../assets/aboutImage2.jpg"
 
 
 export function About() {
+
+    const { TITLE } = useTheme()
+
     return (
         <Container id="About">
 
@@ -14,8 +18,14 @@ export function About() {
 
                 <div className="aboutImage">
                      <Slide direction="left">
-                    <img src={aboutImage}
-                     alt="Imagem de uma mesa com um Computador, um livro e um controle de video game"/>
+                    {
+                        TITLE == "dark" ? 
+                        <img src={aboutImage}
+                         alt="Imagem de uma mesa com um Computador, um livro e um controle de video game"/> :
+                         <img src={aboutImage2}
+                         alt="Imagem de uma mesa com um Computador, um livro e um controle de video game"/>
+                    }
+                    
                      </Slide>
                 </div>
 

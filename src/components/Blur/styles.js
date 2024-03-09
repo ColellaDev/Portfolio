@@ -90,3 +90,16 @@ export const ContactLeft = styled.div`
   filter: blur(100px);
   z-index: -1;
 `;
+
+export const FinalLeft = styled.div`
+  position: absolute;
+  width: 45vw;
+  height: 30vw;
+  min-width: 350px;
+  top: 3500px;
+  left: 25vw;
+  border-radius: 764px;
+  background: ${({ background }) => background};
+  filter: blur(100px);
+  z-index: -1;
+`;
