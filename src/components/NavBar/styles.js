@@ -22,6 +22,7 @@ export const Container = styled.div`
     align-items: center;
     gap: 3rem;
     font-weight: 600;
+    
 
     li {
       position: relative;
@@ -71,17 +72,36 @@ export const Container = styled.div`
     ul {
       margin-right: 3rem;
       position: absolute;
-      right: 0;
+      right: 0px;
       top: 90px;
       font-size: 1rem;
       flex-direction: column;
       gap: 2rem;
 
+
       @media (max-width: ${DEVICE.SM}) {
-        right: 0;
+        right: 0px;
         top: 50px;
       }
     }
+
+    @media (max-width: ${DEVICE.SS}) {
+      justify-content: flex-start;
+
+      ul {
+       right: 100px;
+       top: 60px;
+      }
+      }
+
+      @media (max-width: ${DEVICE.XS}) {
+      justify-content: flex-start;
+
+      ul {
+       right: 0px;
+       top: 60px;
+      }
+      }
 
     .menu-visible {
       visibility: visible;
@@ -96,6 +116,7 @@ export const Container = styled.div`
       transform: translateY(-30%);
       transition: opacity 0.6s ease, transform 0.6s ease;
     }
+
   }
 
   @media (max-width: ${DEVICE.SM}) {
