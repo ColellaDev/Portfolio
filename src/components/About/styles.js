@@ -16,6 +16,10 @@ export const Container = styled.div`
     align-items: center;
     gap: 5rem;
     margin-top: 8rem;
+
+    @media (max-width: ${DEVICE.LG}) {
+      flex-direction: column;
+    }
   }
 
   .aboutImage {
@@ -24,11 +28,27 @@ export const Container = styled.div`
       border: solid;
       border-color: ${({ theme }) => theme.COLORS.SECUNDARY};
       box-shadow: 0px 0px 10px 2px ${({ theme }) => theme.COLORS.SECUNDARY};
+
+      @media (max-width: ${DEVICE.MD}) {
+        width: 22rem;
+      }
+
+      @media (max-width: ${DEVICE.SM}) {
+        width: 19rem;
+      }
     }
   }
 
   .aboutText {
     width: 50rem;
+
+    @media (max-width: ${DEVICE.MD}) {
+      width: 42rem;
+    }
+
+    @media (max-width: ${DEVICE.SM}) {
+      width: 33rem;
+    }
 
     p {
       font-size: 1.2rem;

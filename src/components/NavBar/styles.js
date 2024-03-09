@@ -59,6 +59,10 @@ export const Container = styled.div`
     justify-content: flex-end;
     gap: 3rem;
 
+    svg {
+      font-size: 1.4rem;
+    }
+
     h1 {
       margin-right: 17rem;
       font-size: 1.8rem;
@@ -95,11 +99,17 @@ export const Container = styled.div`
   }
 
   @media (max-width: ${DEVICE.SM}) {
+    padding: 1rem;
+
     h1 {
       margin-right: 5rem;
       font-size: 2rem;
     }
-    padding: 1rem;
+
+    svg {
+      font-size: 1.8rem;
+    }
+    
   }
 
   @media (max-width: ${DEVICE.XS}) {
