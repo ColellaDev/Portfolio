@@ -26,7 +26,7 @@ export const Hero = styled.div`
   }
 `;
 
-export const About = styled.div`
+export const Welcome = styled.div`
   width: 32rem;
 
   span {
@@ -81,7 +81,6 @@ export const Avatar = styled.div`
   img {
     width: 20rem;
     border-radius: 31% 69% 73% 27% / 35% 58% 42% 65%;
-    border-color: ${({ theme }) => theme.COLORS.PRIMARY};
     border: solid;
     box-shadow: 14px 0px 41px 19px rgba(62, 66, 66, 0.22);
   }

@@ -25,6 +25,7 @@ const toggleMenu = () => {
       
       <ul className={isMenuVisible ? "menu-visible" : "menu-hidden"}>
         <li><ScrollLink to="Home" smooth={true} offset={-320} duration={500}>Home</ScrollLink></li>
+        <li><ScrollLink to="About" smooth={true} offset={-180} duration={500}>Sobre</ScrollLink></li>
         <li><ScrollLink to="Skills" smooth={true} offset={-180} duration={500}>Skills</ScrollLink></li>
         <li><ScrollLink to="Projects" smooth={true} offset={-180} duration={500}>Projetos</ScrollLink></li>
         <li><ScrollLink to="Contact" smooth={true} offset={-190} duration={500}>Contatos</ScrollLink></li>
