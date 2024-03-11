@@ -3,15 +3,15 @@
         "title": "MovieStars",
         "imageSrc": "moviestars.png",
         "description": "O RocketStars é uma aplicação full-stack desenvolvida para criar notas e avaliar os filmes que você assistiu.",
-        "demo": "https://notesdevcolella.netlify.app/",
-        "code": "https://github.com/ColellaDev/RocketNotes"
+        "demo": "https://moviesdevcolella.netlify.app/",
+        "code": "https://github.com/ColellaDev/RocketMovies"
     },
     {
         "title": "RocketNotes",
         "imageSrc": "rocketnotes.png",
         "description": "O Rocket Notes é uma aplicação full-stack desenvolvida para organizar e gerenciar suas notas de forma eficiente.",
-        "demo": "https://moviesdevcolella.netlify.app/",
-        "code": "https://github.com/ColellaDev/RocketMovies"
+        "demo": "https://notesdevcolella.netlify.app/",
+        "code": "https://github.com/ColellaDev/RocketNotes"
     },
     {
         "title": "Focus Timer",
