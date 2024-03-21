@@ -14,6 +14,13 @@
         "code": "https://github.com/ColellaDev/RocketNotes"
     },
     {
+        "title": "Tech Forge Feed",
+        "imageSrc": "techforge.png",
+        "description": "Projeto com foco em estudo de JavaScript, sons, volume, timer e funções de media.",
+        "demo": "https://techforgefeed.netlify.app/",
+        "code": "https://github.com/ColellaDev/TechForge"
+    },
+    {
         "title": "Focus Timer",
         "imageSrc": "focustimer.png",
         "description": "Projeto com foco em estudo de JavaScript, sons, volume, timer e funções de media.",

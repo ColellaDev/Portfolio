@@ -22,8 +22,7 @@ export const Container = styled.div`
   .projectsCard {
     display: flex;
     flex-wrap: wrap;
-    justify-items: center;
-    align-items: center;
+    justify-content: center;
 
     margin-top: 8rem;
     gap: 4rem;
