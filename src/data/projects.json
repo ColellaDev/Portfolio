@@ -16,14 +16,14 @@
     {
         "title": "Tech Forge Feed",
         "imageSrc": "techforge.png",
-        "description": "Projeto com foco em estudo de JavaScript, sons, volume, timer e funções de media.",
+        "description": "Nesta plataforma, a equipe pode publicar avisos, eventos e conquistas, e interagir através de comentários e likes.",
         "demo": "https://techforgefeed.netlify.app/",
         "code": "https://github.com/ColellaDev/TechForge"
     },
     {
         "title": "Focus Timer",
         "imageSrc": "focustimer.png",
-        "description": "Projeto com foco em estudo de JavaScript, sons, volume, timer e funções de media.",
+        "description": "Projeto com foco em estudo de JavaScript, sons, volume, timer e controles de mídia.",
         "demo": "https://colelladev.github.io/Desafio07.FocusTimer/",
         "code": "https://github.com/ColellaDev/Desafio07.FocusTimer?tab=readme-ov-file"
     },
