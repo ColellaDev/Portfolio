@@ -21,9 +21,16 @@
         "code": "https://github.com/ColellaDev/TechForge"
     },
     {
+        "title": "ToDo List",
+        "imageSrc": "todolist.png",
+        "description": "Aplicação em TypeScript para gerenciar tarefas, os usuários podem adicionar novas tarefas, concluídas ou excluí-las.",
+        "demo": "https://todolistcolella.netlify.app/",
+        "code": "https://github.com/ColellaDev/ToDo-List/tree/main"
+    },
+    {
         "title": "Focus Timer",
         "imageSrc": "focustimer.png",
-        "description": "Projeto com foco em estudo de JavaScript, sons, volume, timer e controles de mídia.",
+        "description": "Projeto com foco em estudo de JavaScript puro, sons, volume, timer e controles de mídia.",
         "demo": "https://colelladev.github.io/Desafio07.FocusTimer/",
         "code": "https://github.com/ColellaDev/Desafio07.FocusTimer?tab=readme-ov-file"
     },
