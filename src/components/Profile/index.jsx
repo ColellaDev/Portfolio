@@ -32,8 +32,8 @@ export function Home() {
                      />
                  
                      <p>
-                      Crio interfaces responsivas para diversos dispositivos aplicando conceitos de clean code
-                      e reutilização de código.
+                      Desenvolvimento de interfaces responsivas, implementação de designs, correção de bugs e 
+                      integração com APIs.
                      </p>
                 
                        <Links>

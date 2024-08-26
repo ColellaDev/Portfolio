@@ -41,7 +41,7 @@ export function About() {
                      e enfrentei desafios que exigiam soluções urgentes e eficazes. Essas experiências me permitiram aprimorar <span>habilidades essenciais</span> para um Desenvolvedor.
                     </p>
                     <p>
-                    Adquiri experiência através de diversos projetos, cursos e formações, minha stack principal é <span>React</span>, <span>Styled Components</span> e <span>NodeJS</span>,
+                    Adquiri experiência através de diversos projetos, cursos e formações, minha stack principal é <span>TypeScript</span>, <span>React</span> e <span>React Native</span>,
                      mas estou sempre em busca de novas tecnologias, atualmente procuro uma posição como Desenvolvedor Front End Junior.
                     </p>
                     </Zoom>
