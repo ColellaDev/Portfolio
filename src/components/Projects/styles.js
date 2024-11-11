@@ -19,12 +19,17 @@ export const Container = styled.div`
     font-size: 2.5rem;
   }
 
+  h2 {
+    font-size: 2rem;
+    margin-top: 5rem;
+  }
+
   .projectsCard {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 
-    margin-top: 8rem;
+    margin-top: 5rem;
     gap: 4rem;
 
     @media (max-width: ${DEVICE.LG}) {

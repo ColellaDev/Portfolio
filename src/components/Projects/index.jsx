@@ -4,6 +4,7 @@ import VanillaTilt from 'vanilla-tilt';
 import React, { useEffect } from 'react';
 
 import projects from "../../data/projects.json"
+import projectsMobile from "../../data/projectsMobile.json"
 
 export function Projects() {
 
@@ -29,31 +30,51 @@ export function Projects() {
 
          <h1>Projetos</h1>
 
-         <div className="projectsCard" >
-               
+         <h2>Web</h2>
+
+         <div className="projectsCard" >   
             {
-                projects.map((projects, id) => {
-                    return (
-                        <Zoom key={id}>
-                        <div className="card"  data-tilt>
+            projects.map((projects, id) => {
+                return (
+                    <Zoom key={id}>
+                    <div className="card"  data-tilt>
                             
-                            <img src={getImageUrl(projects.imageSrc)} alt={`Imagem do Projeto ${projects.title}`}/>
-                            <h3>{projects.title}</h3>
-                            <p>{projects.description}</p>
-                            <div className="links">
-                                <a href={projects.demo} target="_blank">Demo</a>
-                                <a href={projects.code} target="_blank">Código</a>
-                            </div>
-                            
+                        <img src={getImageUrl(projects.imageSrc)} alt={`Imagem do Projeto ${projects.title}`}/>
+                        <h3>{projects.title}</h3>
+                        <p>{projects.description}</p>
+                        <div className="links">
+                            <a href={projects.demo} target="_blank">Demo</a>
+                            <a href={projects.code} target="_blank">Código</a>
                         </div>
-                        </Zoom>
-                    )
-                })
-               
+                            
+                     </div>
+                    </Zoom>
+                )
+            })
             }
-                
-           
-            
+         </div>
+
+         <h2>Mobile</h2>
+
+         <div className="projectsCard" >   
+            {
+            projectsMobile.map((projectsMobile, id) => {
+                return (
+                    <Zoom key={id}>
+                    <div className="card"  data-tilt>
+                            
+                        <img src={getImageUrl(projectsMobile.imageSrc)} alt={`Imagem do Projeto ${projectsMobile.title}`}/>
+                        <h3>{projectsMobile.title}</h3>
+                        <p>{projectsMobile.description}</p>
+                        <div className="links">
+                            <a href={projectsMobile.code} target="_blank">Código</a>
+                        </div>
+                            
+                     </div>
+                    </Zoom>
+                )
+            })
+            }
          </div>
 
         </Container>
