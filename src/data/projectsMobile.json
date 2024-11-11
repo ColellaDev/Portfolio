@@ -1,13 +1,17 @@
 [
     {
-        "title": "Teste Mobile 1",
-        "imageSrc": "moviestars.png",
-        "description": "O RocketStars é uma aplicação full-stack desenvolvida para criar notas e avaliar os filmes que você assistiu.",
-        "code": "https://github.com/ColellaDev/RocketMovies"
+        "title": "Event List",
+        "imageSrc1": "eventList1.png",
+        "imageSrc2": "eventList2.png",
+        "imageSrc3": "eventList3.png",
+        "description": ".",
+        "code": "https://github.com/ColellaDev/EventList-Mobile"
     },
     {
         "title": "Teste Mobile 2",
-        "imageSrc": "rocketnotes.png",
+        "imageSrc1": "eventList1.png",
+        "imageSrc2": "eventList2.png",
+        "imageSrc3": "eventList3.png",
         "description": "O Rocket Notes é uma aplicação full-stack desenvolvida para organizar e gerenciar suas notas de forma eficiente.",
         "code": "https://github.com/ColellaDev/RocketNotes"
     }

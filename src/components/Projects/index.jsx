@@ -61,9 +61,14 @@ export function Projects() {
             projectsMobile.map((projectsMobile, id) => {
                 return (
                     <Zoom key={id}>
-                    <div className="card"  data-tilt>
-                            
-                        <img src={getImageUrl(projectsMobile.imageSrc)} alt={`Imagem do Projeto ${projectsMobile.title}`}/>
+                    <div className="cardMobile"  data-tilt>
+                        
+                        <div className="imgMobile">
+                        <img src={getImageUrl(projectsMobile.imageSrc1)} alt={`Imagem do Projeto ${projectsMobile.title}`}/>
+                        <img src={getImageUrl(projectsMobile.imageSrc2)} alt={`Imagem do Projeto ${projectsMobile.title}`}/>
+                        <img src={getImageUrl(projectsMobile.imageSrc3)} alt={`Imagem do Projeto ${projectsMobile.title}`}/>
+                        </div>
+
                         <h3>{projectsMobile.title}</h3>
                         <p>{projectsMobile.description}</p>
                         <div className="links">

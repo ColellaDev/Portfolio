@@ -70,6 +70,37 @@ export const Container = styled.div`
     }
   }
 
+  .cardMobile {
+    width: 21rem;
+    height: 25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 15px 5px ${({ theme }) => theme.COLORS.SECUNDARY};
+
+    
+
+    h3 {
+      margin-left: 1rem;
+    }
+
+    p {
+      margin-left: 1rem;
+    }
+  }
+
+  .imgMobile {
+    margin: 1rem;
+
+    img {
+      margin-left: 0.5rem;
+      width: 30%;
+      height: 100%;
+      border-radius: 1rem;
+    }
+  }
+
   .links {
     display: flex;
     justify-content: center;
