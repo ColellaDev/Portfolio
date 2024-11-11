@@ -30,6 +30,34 @@ export function Projects() {
 
          <h1>Projetos</h1>
 
+         <h2>Mobile</h2>
+
+        <div className="projectsCard" >   
+            {
+            projectsMobile.map((projectsMobile, id) => {
+                return (
+                    <Zoom key={id}>
+                    <div className="cardMobile"  data-tilt>
+               
+                    <div className="imgMobile">
+                        <img src={getImageUrl(projectsMobile.imageSrc1)} alt={`Imagem do Projeto ${projectsMobile.title}`}/>
+                        <img src={getImageUrl(projectsMobile.imageSrc2)} alt={`Imagem do Projeto ${projectsMobile.title}`}/>
+                        <img src={getImageUrl(projectsMobile.imageSrc3)} alt={`Imagem do Projeto ${projectsMobile.title}`}/>
+                    </div>
+
+                    <h3>{projectsMobile.title}</h3>
+                    <p>{projectsMobile.description}</p>
+                    <div className="links">
+                        <a href={projectsMobile.code} target="_blank">Código</a>
+                    </div>
+                   
+                    </div>
+                    </Zoom>
+                )
+            })
+            }
+        </div>
+
          <h2>Web</h2>
 
          <div className="projectsCard" >   
@@ -45,34 +73,6 @@ export function Projects() {
                         <div className="links">
                             <a href={projects.demo} target="_blank">Demo</a>
                             <a href={projects.code} target="_blank">Código</a>
-                        </div>
-                            
-                     </div>
-                    </Zoom>
-                )
-            })
-            }
-         </div>
-
-         <h2>Mobile</h2>
-
-         <div className="projectsCard" >   
-            {
-            projectsMobile.map((projectsMobile, id) => {
-                return (
-                    <Zoom key={id}>
-                    <div className="cardMobile"  data-tilt>
-                        
-                        <div className="imgMobile">
-                        <img src={getImageUrl(projectsMobile.imageSrc1)} alt={`Imagem do Projeto ${projectsMobile.title}`}/>
-                        <img src={getImageUrl(projectsMobile.imageSrc2)} alt={`Imagem do Projeto ${projectsMobile.title}`}/>
-                        <img src={getImageUrl(projectsMobile.imageSrc3)} alt={`Imagem do Projeto ${projectsMobile.title}`}/>
-                        </div>
-
-                        <h3>{projectsMobile.title}</h3>
-                        <p>{projectsMobile.description}</p>
-                        <div className="links">
-                            <a href={projectsMobile.code} target="_blank">Código</a>
                         </div>
                             
                      </div>
