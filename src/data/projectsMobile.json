@@ -8,11 +8,11 @@
         "code": "https://github.com/ColellaDev/EventList-Mobile"
     },
     {
-        "title": "Teste Mobile 2",
-        "imageSrc1": "eventList1.png",
-        "imageSrc2": "eventList2.png",
-        "imageSrc3": "eventList3.png",
-        "description": "O Rocket Notes é uma aplicação full-stack desenvolvida para organizar e gerenciar suas notas de forma eficiente.",
-        "code": "https://github.com/ColellaDev/RocketNotes"
+        "title": "Team Tech",
+        "imageSrc1": "teamTech1.png",
+        "imageSrc2": "teamTech2.png",
+        "imageSrc3": "teamTech3.png",
+        "description": "Este aplicativo é um gerenciador de equipes que permite criar turmas, adicionar participantes e organizá-los em times de forma prática e eficiente.",
+        "code": "https://github.com/ColellaDev/TeamTech-Mobile"
     }
 ]
