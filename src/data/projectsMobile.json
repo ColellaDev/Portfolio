@@ -4,7 +4,7 @@
         "imageSrc1": "eventList1.png",
         "imageSrc2": "eventList2.png",
         "imageSrc3": "eventList3.png",
-        "description": ".",
+        "description": "Este aplicativo permite gerenciar a lista de presença de um evento, oferecendo a funcionalidade de adicionar e remover nomes de participantes de forma prática.",
         "code": "https://github.com/ColellaDev/EventList-Mobile"
     },
     {

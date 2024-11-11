@@ -48,7 +48,7 @@ export const Container = styled.div`
 
   .card {
     width: 21rem;
-    height: 25rem;
+    height: 100%;
     display: flex;
     flex-direction: column;
     gap: 0.6rem;
@@ -72,14 +72,12 @@ export const Container = styled.div`
 
   .cardMobile {
     width: 21rem;
-    height: 25rem;
+    height: 100%;
     display: flex;
     flex-direction: column;
     gap: 0.6rem;
     border-radius: 1rem;
     box-shadow: 0px 0px 15px 5px ${({ theme }) => theme.COLORS.SECUNDARY};
-
-    
 
     h3 {
       margin-left: 1rem;
@@ -106,6 +104,7 @@ export const Container = styled.div`
     justify-content: center;
     gap: 1rem;
     margin-top: 1rem;
+    margin-bottom: 1rem;
 
     a {
       padding: 0.4rem 1rem;
