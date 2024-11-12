@@ -4,7 +4,7 @@
         "imageSrc1": "shoesApp2.png",
         "imageSrc2": "shoesApp3.png",
         "imageSrc3": "shoesApp5.png",
-        "description": "Esse App foi desenvolvido com foco no aprendizado de Push Notifications e Deep Linking usando OneSignal e Firebase. Além das funções básicas de adicionar e remover itens do carrinho.",
+        "description": "Esse App foi desenvolvido com foco no aprendizado de Push Notifications e Deep Linking utilizando OneSignal e Firebase. Além das funções básicas de adicionar e remover itens do carrinho.",
         "code": "https://github.com/ColellaDev/shoesapp"
     }, 
     {

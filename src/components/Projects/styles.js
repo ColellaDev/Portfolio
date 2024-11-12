@@ -67,7 +67,7 @@ export const Container = styled.div`
     }
 
     p {
-      margin-left: 1rem;
+      margin: 1rem;
     }
   }
 
@@ -85,7 +85,7 @@ export const Container = styled.div`
     }
 
     p {
-      margin-left: 1rem;
+      margin: 1rem;
     }
   }
 
@@ -104,7 +104,6 @@ export const Container = styled.div`
     display: flex;
     justify-content: center;
     gap: 1rem;
-    margin-top: 1rem;
     margin-bottom: 1rem;
 
     a {
