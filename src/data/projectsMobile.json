@@ -1,4 +1,13 @@
-[    {
+[   
+    {
+        "title": "Loja Push Notifitênis",
+        "imageSrc1": "shoesApp2.png",
+        "imageSrc2": "shoesApp3.png",
+        "imageSrc3": "shoesApp5.png",
+        "description": "Esse App foi desenvolvido com foco no aprendizado de Push Notifications e Deep Linking usando OneSignal e Firebase. Além das funções básicas de adicionar e remover itens do carrinho.",
+        "code": "https://github.com/ColellaDev/shoesapp"
+    }, 
+    {
     "title": "Ignite Gym",
     "imageSrc1": "igniteGym1.png",
     "imageSrc2": "igniteGym2.png",
