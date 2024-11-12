@@ -37,7 +37,7 @@
     {
         "title": "Space Cream",
         "imageSrc": "spacecream.png",
-        "description": "Projeto para estudar responsividade,  grid e animações.",
+        "description": "Projeto para estudar HTML, CSS, responsividade, grid e animações.",
         "demo": "https://colelladev.github.io/desafio06responsividade/",
         "code": "https://github.com/ColellaDev/desafio06responsividade?tab=readme-ov-file"
     }

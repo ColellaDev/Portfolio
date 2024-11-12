@@ -14,5 +14,13 @@
         "imageSrc3": "teamTech3.png",
         "description": "Este aplicativo é um gerenciador de equipes que permite criar turmas, adicionar participantes e organizá-los em times de forma prática e eficiente.",
         "code": "https://github.com/ColellaDev/TeamTech-Mobile"
+    },
+    {
+        "title": "Ignite Gym",
+        "imageSrc1": "igniteGym1.png",
+        "imageSrc2": "igniteGym2.png",
+        "imageSrc3": "igniteGym3.png",
+        "description": "O Ignite Gym permite gerenciar perfis com integração à API, oferece uma lista de exercícios categorizados com GIFs de demonstração e inclui um histórico com a data dos exercícios realizados.",
+        "code": "https://github.com/ColellaDev/ignitegym-Mobile"
     }
 ]
