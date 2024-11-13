@@ -4,7 +4,7 @@
         "imageSrc1": "quiz1.png",
         "imageSrc2": "quiz2.png",
         "imageSrc3": "quiz3.png",
-        "description": "Aplicativo de Quiz desenvolvido para aprimorar minhas habilidades em animações, interações e feedbacks táteis e sonoros. O projeto inclui um sistema de Quiz interativo, com diversas animações e feedbacks além de armazenar o histórico das partidas.",
+        "description": "Aplicativo desenvolvido para aprimorar minhas habilidades em animações, interações, feedbacks táteis e sonoros, filtro por dificuldade e armazenamento das partidas no histórico.",
         "code": "https://github.com/ColellaDev/QuizApp-Mobile"
     }, 
     {
