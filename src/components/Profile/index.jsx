@@ -37,7 +37,7 @@ export function Home() {
                      </p>
                 
                        <Links>
-                         <a className="curriculoBtn" href={curriculo} download="CurrículoMarcosColella.pdf">Download CV</a>
+                         <a className="curriculoBtn" href={curriculo} download="Currículo Marcos Colella.pdf">Download CV</a>
 
                          <a className="iconLink" href="https://www.linkedin.com/in/marcos-colella-esteves-952a3866/" target="_blank"><CiLinkedin /></a>
                          <a className="iconLink" href="https://github.com/ColellaDev" target="_blank"><AiOutlineGithub /></a>
