@@ -32,8 +32,8 @@ export function Home() {
                      />
                  
                      <p>
-                      Desenvolvimento de interfaces responsivas, implementação de designs, correção de bugs e 
-                      integração com APIs.
+                      Desenvolvimento de interfaces responsivas e intuitivas, implementação de designs,
+                      integração com APIs e capacidade de aprender e se adaptar rapidamente a novas tecnologias.
                      </p>
                 
                        <Links>

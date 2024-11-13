@@ -17,6 +17,4 @@ export function Blur() {
      <FinalLeft  background={TITLE === "dark" ? "#1c2642" : "rgb(221, 208, 255)"}/>
      </>
     )
-
-    //"rgba(25, 55, 109, 1)"
 }
