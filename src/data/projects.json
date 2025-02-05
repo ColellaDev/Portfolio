@@ -33,12 +33,5 @@
         "description": "Projeto com foco em estudo de JavaScript puro, sons, volume, timer e controles de mídia.",
         "demo": "https://colelladev.github.io/Desafio07.FocusTimer/",
         "code": "https://github.com/ColellaDev/Desafio07.FocusTimer?tab=readme-ov-file"
-    },
-    {
-        "title": "Space Cream",
-        "imageSrc": "spacecream.png",
-        "description": "Projeto para estudar HTML, CSS, responsividade, grid e animações.",
-        "demo": "https://colelladev.github.io/desafio06responsividade/",
-        "code": "https://github.com/ColellaDev/desafio06responsividade?tab=readme-ov-file"
     }
 ]
