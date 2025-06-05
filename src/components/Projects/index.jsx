@@ -36,8 +36,8 @@ export function Projects() {
             {
             projectsMobile.map((projectsMobile, id) => {
                 return (
-                    <Zoom key={id}>
-                    <div className="cardMobile"  data-tilt>
+                <Zoom key={id}>
+                <div className="cardMobile"  data-tilt>
                
                     <div className="imgMobile">
                         <img src={getImageUrl(projectsMobile.imageSrc1)} alt={`Imagem do Projeto ${projectsMobile.title}`}/>
@@ -47,9 +47,6 @@ export function Projects() {
 
                     <h3>{projectsMobile.title}</h3>
                     <p>{projectsMobile.description}</p>
-                    <div className="links">
-                        <a href={projectsMobile.code} target="_blank">Código</a>
-                    </div>
                     {projectsMobile.techs && (
                         <div className="techs">
                             {projectsMobile.techs.map((tech, idx) => (
@@ -59,8 +56,11 @@ export function Projects() {
                             ))}
                         </div>
                     )}
+                    <div className="links">
+                        <a href={projectsMobile.code} target="_blank">Código</a>
                     </div>
-                    </Zoom>
+                </div>
+                </Zoom>
                 )
             })
             }
@@ -78,11 +78,19 @@ export function Projects() {
                         <img src={getImageUrl(projects.imageSrc)} alt={`Imagem do Projeto ${projects.title}`}/>
                         <h3>{projects.title}</h3>
                         <p>{projects.description}</p>
+                         {projects.techs && (
+                         <div className="techs">
+                            {projects.techs.map((tech, idx) => (
+                                <span className="tech-tag" key={idx}>
+                                    {tech}
+                                </span>
+                            ))}
+                         </div>
+                         )}
                         <div className="links">
                             <a href={projects.demo} target="_blank">Demo</a>
                             <a href={projects.code} target="_blank">Código</a>
                         </div>
-                        {projects.techs && renderTechTags(projects.techs)}
                      </div>
                     </Zoom>
                 )

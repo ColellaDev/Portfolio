@@ -103,7 +103,7 @@ export const Softskills = styled.div`
     &:hover {
       svg {
         scale: 1.2;
-        color: ${({ theme }) => theme.COLORS.SECUNDARY};
+        color: ${({ theme }) => theme.COLORS.SECUNDARY_100};
         transition: 0.3s ease-in-out;
       }
     }
