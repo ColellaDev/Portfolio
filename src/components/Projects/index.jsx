@@ -49,8 +49,8 @@ export function Projects() {
                     <p>{projectsMobile.description}</p>
                     {projectsMobile.techs && (
                         <div className="techs">
-                            {projectsMobile.techs.map((tech, idx) => (
-                                <span className="tech-tag" key={idx}>
+                            {projectsMobile.techs.map((tech, id) => (
+                                <span className="tech-tag" key={id}>
                                     {tech}
                                 </span>
                             ))}
@@ -80,8 +80,8 @@ export function Projects() {
                         <p>{projects.description}</p>
                          {projects.techs && (
                          <div className="techs">
-                            {projects.techs.map((tech, idx) => (
-                                <span className="tech-tag" key={idx}>
+                            {projects.techs.map((tech, id) => (
+                                <span className="tech-tag" key={id}>
                                     {tech}
                                 </span>
                             ))}

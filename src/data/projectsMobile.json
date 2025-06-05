@@ -5,8 +5,8 @@
         "imageSrc2": "moviePicker2.png",
         "imageSrc3": "moviePicker3.png",
         "description": "App desenvolvido em React Native com Expo, que consome a API do TMDB Movie. Busque filmes e séries, veja detalhes, adicione aos favoritos e use o 'Picker' para sortear o que assistir apenas balançando o celular.",
-        "code": "https://github.com/ColellaDev/MoviePicker-Mobile",
-        "techs": ["React Native", "Typescript", "Styled Components", "Consumo API Externa"]
+        "techs": ["React Native", "Typescript", "Styled Components", "Consumo API"],
+        "code": "https://github.com/ColellaDev/MoviePicker-Mobile"
     }, 
     {
         "title": "Quiz Animado",

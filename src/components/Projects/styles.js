@@ -85,7 +85,7 @@ export const Container = styled.div`
     }
 
     p {
-      margin: 1rem;
+      margin: 0.3rem 0.8rem;
     }
   }
 
@@ -134,7 +134,7 @@ export const Container = styled.div`
     color: ${({ theme }) => theme.COLORS.SECUNDARY};
     border-radius: 0.7rem;
     padding: 0.2rem 0.8rem;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: 500;
     letter-spacing: 0.03em;
   }
