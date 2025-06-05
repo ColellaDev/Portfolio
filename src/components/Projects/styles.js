@@ -121,4 +121,21 @@ export const Container = styled.div`
       }
     }
   }
+
+  .techs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin: 0.5rem;
+  }
+
+  .tech-tag {
+    background: ${({ theme }) => theme.COLORS.TAG};
+    color: ${({ theme }) => theme.COLORS.SECUNDARY};
+    border-radius: 0.7rem;
+    padding: 0.2rem 0.8rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+  }
 `;

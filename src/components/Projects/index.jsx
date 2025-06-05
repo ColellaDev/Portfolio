@@ -1,7 +1,7 @@
 import  { Container } from "./styles"
 import {Zoom} from "react-awesome-reveal";
 import VanillaTilt from 'vanilla-tilt';
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 
 import projects from "../../data/projects.json"
 import projectsMobile from "../../data/projectsMobile.json"
@@ -23,7 +23,7 @@ export function Projects() {
 
     const getImageUrl = (path) => {
         return new URL(`../../assets/${path}`, import.meta.url).href;
-      };
+    };
 
     return (
         <Container id="Projects">
@@ -50,7 +50,15 @@ export function Projects() {
                     <div className="links">
                         <a href={projectsMobile.code} target="_blank">Código</a>
                     </div>
-                   
+                    {projectsMobile.techs && (
+                        <div className="techs">
+                            {projectsMobile.techs.map((tech, idx) => (
+                                <span className="tech-tag" key={idx}>
+                                    {tech}
+                                </span>
+                            ))}
+                        </div>
+                    )}
                     </div>
                     </Zoom>
                 )
@@ -74,7 +82,7 @@ export function Projects() {
                             <a href={projects.demo} target="_blank">Demo</a>
                             <a href={projects.code} target="_blank">Código</a>
                         </div>
-                            
+                        {projects.techs && renderTechTags(projects.techs)}
                      </div>
                     </Zoom>
                 )
