@@ -51,6 +51,7 @@ export const HardSkills = styled.div`
     justify-content: center;
     align-items: center;
     position: absolute;
+    text-align: center;
     top: 0;
     left: 0;
     width: 100%;

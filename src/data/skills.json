@@ -8,12 +8,28 @@
         "imageSrc": "https://skillicons.dev/icons?i=css"
     },
     {
+        "title": "Java Script",
+        "imageSrc": "https://skillicons.dev/icons?i=javascript"
+    },
+    {
+        "title": "Type Script",
+        "imageSrc": "https://skillicons.dev/icons?i=typescript"
+    },
+    {
         "title": "React",
         "imageSrc": "https://skillicons.dev/icons?i=react"
     },
     {
+        "title": "NextJS",
+        "imageSrc": "https://skillicons.dev/icons?i=nextjs"
+    },
+    {
         "title": "Styled Comp.",
         "imageSrc": "https://skillicons.dev/icons?i=styledcomponents"
+    },
+    {
+        "title": "Material UI",
+        "imageSrc": "https://skillicons.dev/icons?i=materialui"
     },
     {
         "title": "Git",
