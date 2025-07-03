@@ -24,7 +24,7 @@ export const Container = styled.div`
 
   .aboutImage {
     img {
-      width: 27rem;
+      width: 29rem;
       border: solid;
       border-color: ${({ theme }) => theme.COLORS.SECUNDARY};
       box-shadow: 0px 0px 10px 2px ${({ theme }) => theme.COLORS.SECUNDARY};
