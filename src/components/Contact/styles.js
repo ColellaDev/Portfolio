@@ -44,6 +44,33 @@ export const Profile = styled.div`
       svg {
         font-size: 1.4rem;
       }
+
+      a {
+        color: ${({ theme }) => theme.COLORS.PRIMARY};
+        text-decoration: none;
+        transition: filter 200ms;
+
+        &:hover {
+          filter: brightness(0.8);
+        }
+      }
+
+      .copy-button {
+        background: none;
+        border: none;
+        color: ${({ theme }) => theme.COLORS.SECUNDARY};
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2rem;
+        transition: 200ms;
+
+        &:hover {
+          transform: scale(1.2);
+          filter: brightness(0.8);
+        }
+      }
     }
   }
 
