@@ -1,0 +1,16 @@
+{
+    "title": "🏈  Bolão Oval NFL",
+    "imageSrc": "bolaooval.png",
+    "longDescription": "O Bolão Oval é uma plataforma FullStack em desenvolvimento para fãs de futebol americano participarem de bolões da NFL. O projeto integra-se a uma API externa da ESPN para buscar dados dos jogos em tempo real, que são processados e servidos por uma API própria construída com Next.js. Os usuários podem se cadastrar, fazer login de forma segura e registrar seus palpites para os jogos da temporada, competindo com outros participantes em um ranking atualizado.",
+    "challenges": [
+        "Integrar e consumir uma API externa (ESPN) para ingestão de dados, validando-os com Zod antes de persistir no banco de dados.",
+        "Implementar um sistema de autenticação seguro utilizando JWT e hashing de senhas com Bcrypt.",
+        "Desenvolver uma API robusta com as Route Handlers do Next.js para gerenciar usuários, jogos e palpites.",
+        "Criar formulários completos com validação de dados utilizando React Hook Form e Zod.",
+        "Estruturar o banco de dados e garantir a segurança dos tipos com Prisma ORM, facilitando a manutenção e a escalabilidade.",
+        "Construir uma interface moderna e responsiva com Tailwind CSS, garantindo uma ótima experiência em qualquer dispositivo."
+    ],
+    "techs": ["Next.js", "React", "TypeScript", "Tailwind CSS", "Prisma", "Zod", "React Hook Form", "API Rest"],
+    "demo": "https://github.com/ColellaDev/bolao-oval",
+    "code": "https://github.com/ColellaDev/bolao-oval"
+}

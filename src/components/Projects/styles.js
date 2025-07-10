@@ -24,6 +24,85 @@ export const Container = styled.div`
     margin-top: 5rem;
   }
 
+  .featured-project {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+    padding: 2rem;
+    margin: 4rem 2rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid ${({ theme }) => theme.COLORS.GRAY};
+    border-radius: 1rem;
+    width: 90%;
+    max-width: 75rem;
+
+    @media (max-width: ${DEVICE.LG}) {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+
+    .featured-image {
+      img {
+        width: 100%;
+        border-radius: 0.5rem;
+        transition: transform 0.3s ease;
+        &:hover {
+          transform: scale(1.03);
+        }
+      }
+    }
+
+    .featured-details {
+      display: flex;
+      flex-direction: column;
+      gap: 1.2rem;
+
+      .featured-tag {
+        align-self: flex-start;
+        background-color: ${({ theme }) => theme.COLORS.SECUNDARY_100};
+        color: ${({ theme }) => theme.COLORS.BACKGROUND};
+        padding: 0.3rem 0.8rem;
+        border-radius: 1rem;
+        font-size: 0.8rem;
+        font-weight: bold;
+        
+        @media (max-width: ${DEVICE.LG}) {
+          align-self: center;
+        }
+      }
+
+      h3 {
+        font-size: 2.2rem;
+        margin: 0;
+      }
+
+      h4 {
+        font-size: 1.3rem;
+        margin-top: 1rem;
+        margin-bottom: 0;
+      }
+
+      .long-description {
+        line-height: 1.6;
+        margin: 0;
+      }
+
+      ul {
+        list-style: none;
+        padding-left: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
+        li {
+          display: flex;
+          align-items: center;
+          gap: 0.8rem;
+        }
+      }
+    }
+  }
+
   .projectsCard {
     display: flex;
     flex-wrap: wrap;
