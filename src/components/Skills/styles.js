@@ -56,44 +56,68 @@ export const HardSkills = styled.div`
     text-align: center;
     width: 8rem;
     height: 8rem;
-    transform-style: preserve-3d; /* Necessário para o vanilla-tilt */
+    transform-style: preserve-3d; 
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+    &:hover {
+      border-color: ${({ theme }) => theme.COLORS.SECUNDARY};
+      box-shadow: 0 0 20px -5px ${({ theme }) => theme.COLORS.SECUNDARY_100};
+    }
 
     img {
       width: 4rem;
-      transform: translateZ(20px); /* Adiciona profundidade à imagem */
+      transform: translateZ(20px); 
     }
 
     span {
       font-size: 0.9rem;
       font-weight: 500;
-      transform: translateZ(10px); /* Adiciona profundidade ao texto */
+      transform: translateZ(10px); 
     }
   }
 `;
 
 export const Softskills = styled.div`
-  display: flex;
-  flex-direction: column;
-  padding: 2rem;
-  width: 30rem;
-  align-items: center;
-  border-color: ${({ theme }) => theme.COLORS.PRIMARY};
+  width: 24rem;
+
+  @media (max-width: ${DEVICE.MD}) {
+    width: 90%;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
 
   li {
-    list-style-type: none;
-    font-size: 1.3rem;
-    margin-bottom: 1.1rem;
+    background: ${({ theme }) => theme.COLORS.BACKGROUND_700};
+    border: 1px solid transparent;
+    border-radius: 0.8rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    cursor: default;
+    transition: all 0.3s ease-in-out;
 
     svg {
-      font-size: 2rem;
-      margin-right: 1rem;
+      font-size: 2.5rem;
+      color: ${({ theme }) => theme.COLORS.PRIMARY};
+      transition: all 0.3s ease-in-out;
     }
 
     &:hover {
+      transform: translateY(-5px) scale(1.02);
+      border-color: ${({ theme }) => theme.COLORS.SECUNDARY};
+      box-shadow: 0 0 20px -5px ${({ theme }) => theme.COLORS.SECUNDARY_100};
       svg {
-        scale: 1.2;
-        color: ${({ theme }) => theme.COLORS.SECUNDARY_100};
-        transition: 0.3s ease-in-out;
+        color: ${({ theme }) => theme.COLORS.SECUNDARY};
+        transform: scale(1.1);
       }
     }
   }
