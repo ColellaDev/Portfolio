@@ -1,5 +1,5 @@
-import React, { useContext, useState } from 'react';
-import Switch from 'react-switch';
+import { useContext, useState } from 'react';
+import Switch from 'react-switch'
 import { Container, Menu } from './styles';
 import { useTheme } from "styled-components"
 import { ThemeContext } from '../../styles/theme';
@@ -13,7 +13,10 @@ const { TITLE, COLORS } = useTheme()
 const {toggleTheme} = useContext(ThemeContext)
 
 const [isMenuVisible, setIsMenuVisible] = useState(false);
-
+const [activeSection, setActiveSection] = useState("Home");
+const handleSetActive = (section) => {
+  setActiveSection(section);
+};
 const toggleMenu = () => {
   setIsMenuVisible(!isMenuVisible);
 };
@@ -24,11 +27,11 @@ const toggleMenu = () => {
       <h1><span>{"{ "}</span>Marcos Colella<span>{" }"}</span></h1>  
       
       <ul className={isMenuVisible ? "menu-visible" : "menu-hidden"}>
-        <li><ScrollLink to="Home" smooth={true} offset={-320} duration={500}>Home</ScrollLink></li>
-        <li><ScrollLink to="About" smooth={true} offset={-180} duration={500}>Sobre</ScrollLink></li>
-        <li><ScrollLink to="Skills" smooth={true} offset={-180} duration={500}>Skills</ScrollLink></li>
-        <li><ScrollLink to="Projects" smooth={true} offset={-180} duration={500}>Projetos</ScrollLink></li>
-        <li><ScrollLink to="Contact" smooth={true} offset={-190} duration={500}>Contatos</ScrollLink></li>
+        <li><ScrollLink to="Home" spy={true} smooth={true} offset={-320} duration={500} activeClass="active">Home</ScrollLink></li>
+        <li><ScrollLink to="About" spy={true} smooth={true} offset={-150} duration={500} activeClass="active">Sobre</ScrollLink></li>
+        <li><ScrollLink to="Skills" spy={true} smooth={true} offset={-150} duration={500} activeClass="active">Skills</ScrollLink></li>
+        <li><ScrollLink to="Projects" spy={true} smooth={true} offset={-140} duration={500} activeClass="active">Projetos</ScrollLink></li>
+        <li><ScrollLink to="Contact" spy={true} smooth={true} offset={-220} duration={500} activeClass="active" >Contatos</ScrollLink></li>
       </ul>
     
       <Switch className='switch'

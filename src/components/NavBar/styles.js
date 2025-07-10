@@ -8,13 +8,21 @@ export const Container = styled.div`
   left: 0;
   width: 100%;
   backdrop-filter: blur(10px);
+  border-bottom: 1px solid ${({ theme }) => theme.COLORS.BACKGROUND_700};
   height: 4rem;
-  padding: 4rem;
+  padding: 3rem;
   font-size: 1.25rem;
 
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  h1 {
+    font-size: 2rem;
+    span {
+      color: ${({ theme }) => theme.COLORS.SECUNDARY};
+    }
+  }
 
   > ul {
     list-style: none;
@@ -22,36 +30,22 @@ export const Container = styled.div`
     align-items: center;
     gap: 3rem;
     font-weight: 600;
-    
 
-    li {
-      position: relative;
+    a {
       cursor: pointer;
       color: ${({ theme }) => theme.COLORS.PRIMARY};
+      padding: 0.5rem 1rem;
+      border-radius: 0.5rem;
+      transition: all 0.3s ease;
 
-      &:before {
-        content: "";
-        position: absolute;
-        left: 0;
-        right: 0;
-        bottom: -5px;
-        height: 2px;
-        background-color: ${({ theme }) => theme.COLORS.PRIMARY};
-        transform: scale(0);
-        transform-origin: right;
-        transition: transform 0.4s ease-in-out;
-      }
-
-      &:hover:before {
-        transform: scale(1);
-        transform-origin: left;
-        background-color: ${({ theme }) => theme.COLORS.SECUNDARY};
-        box-shadow: 0px 0px 5px 0.7px ${({ theme }) => theme.COLORS.SECUNDARY};
+      &.active {
+        background-color: ${({ theme }) => theme.COLORS.SECUNDARY_100};
+        color: ${({ theme }) => theme.COLORS.BACKGROUND};
       }
 
       &:hover {
-        transition: 0.4s ease-in-out;
-        color: ${({ theme }) => theme.COLORS.SECUNDARY};
+        color: ${({ theme }) => theme.COLORS.PRIMARY};
+        background-color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
       }
     }
   }
