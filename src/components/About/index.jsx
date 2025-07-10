@@ -42,7 +42,7 @@ export function About() {
                     </p>
                     <p>
                     Adquiri experiência através de diversos projetos, cursos e formações, minha stack principal é <span>TypeScript</span>, <span>React</span> e <span>React Native</span>,
-                     mas estou sempre em busca de novas tecnologias, atualmente procuro uma posição como Desenvolvedor Front End Junior.
+                     mas estou sempre em busca de novas tecnologias, atualmente procuro uma posição como Desenvolvedor Júnior.
                     </p>
                     </Zoom>
                 </div>
