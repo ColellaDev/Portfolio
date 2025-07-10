@@ -91,12 +91,38 @@ export const ContactLeft = styled.div`
   z-index: -1;
 `;
 
+export const ContactRightExtra = styled.div`
+  position: absolute;
+  width: 65vw;
+  height: 35vw;
+  min-width: 350px;
+  top: 3750px;
+  right: -25vw;
+  border-radius: 664px;
+  background: ${({ background }) => background};
+  filter: blur(100px);
+  z-index: -1;
+`;
+
+export const ContactLeftExtra = styled.div`
+  position: absolute;
+  width: 50vw;
+  height: 23vw;
+  min-width: 350px;
+  top: 3600px;
+  left: -15vw;
+  border-radius: 764px;
+  background: ${({ background }) => background};
+  filter: blur(100px);
+  z-index: -1;
+`;
+
 export const FinalLeft = styled.div`
   position: absolute;
   width: 45vw;
   height: 30vw;
   min-width: 350px;
-  top: 3500px;
+  top: 6200px;
   left: 25vw;
   border-radius: 764px;
   background: ${({ background }) => background};
