@@ -4,11 +4,26 @@ import { BsTools } from "react-icons/bs";
 import { IoIosChatbubbles } from "react-icons/io";
 import { MdTimer } from "react-icons/md";
 import { BsFillCalendarCheckFill } from "react-icons/bs";
-import {Zoom} from "react-awesome-reveal";
+import { Zoom } from "react-awesome-reveal";
+import { useEffect } from "react";
+import VanillaTilt from 'vanilla-tilt';
 
 import skills from "../../data/skills.json"
 
 export function Skills() {
+
+    useEffect(() => {
+        const tiltElements = document.querySelectorAll('[data-tilt]');
+        tiltElements.forEach(element => {
+            VanillaTilt.init(element, {
+                max: 20,
+                speed: 400,
+                glare: true,
+                'max-glare': 0.3,
+                scale: 1.05
+            });
+        });
+    }, []);
 
     return (
         <Container id="Skills">
@@ -20,11 +35,11 @@ export function Skills() {
                 <HardSkills>
                   <Zoom cascade="true" duration="400">
                    {
-                      skills.map((skills, id) => {
+                      skills.map((skill, id) => {
                         return ( 
-                          <div className="imageContainer" key={id}>
-                             <div><img src={skills.imageSrc} alt={skills.title}/></div>
-                             <div className="tooltip">{skills.title}</div>
+                          <div className="skill-card" key={id} data-tilt>
+                             <img src={skill.imageSrc} alt={skill.title}/>
+                             <span>{skill.title}</span>
                           </div>
                         )
                        })

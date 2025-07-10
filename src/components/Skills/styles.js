@@ -39,46 +39,35 @@ export const Container = styled.div`
 export const HardSkills = styled.div`
   display: flex;
   flex-wrap: wrap;
-  width: 30rem;
+  justify-content: center;
+  width: 40rem;
   gap: 1.5rem;
 
-  .imageContainer {
-    position: relative;
-  }
-
-  .tooltip {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    text-align: center;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 0%;
+  .skill-card {
+    background: ${({ theme }) => `linear-gradient(to top, ${theme.COLORS.BACKGROUND_700}, transparent)`};
+    border: 1px solid ${({ theme }) => theme.COLORS.SECUNDARY};
     border-radius: 1rem;
     padding: 1rem;
-    background: linear-gradient(
-      0deg,
-      ${({ theme }) => theme.COLORS.SECUNDARY} -5%,
-      ${({ theme }) => theme.COLORS.BACKGROUND} 35%
-    );
-    color: ${({ theme }) => theme.COLORS.PRIMARY};
-    font-size: 1.1rem;
-    opacity: 0;
-    transition: 0.6s;
-  }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+    width: 8rem;
+    height: 8rem;
+    transform-style: preserve-3d; /* Necessário para o vanilla-tilt */
 
-  .imageContainer:hover .tooltip {
-    opacity: 1;
-    height: 100%;
-  }
+    img {
+      width: 4rem;
+      transform: translateZ(20px); /* Adiciona profundidade à imagem */
+    }
 
-  img {
-    width: 4.5rem;
-    border: solid;
-    border-radius: 1rem;
-    color: ${({ theme }) => theme.COLORS.BACKGROUND};
+    span {
+      font-size: 0.9rem;
+      font-weight: 500;
+      transform: translateZ(10px); /* Adiciona profundidade ao texto */
+    }
   }
 `;
 

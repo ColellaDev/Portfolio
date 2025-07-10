@@ -8,11 +8,11 @@
         "imageSrc": "https://skillicons.dev/icons?i=css"
     },
     {
-        "title": "Java Script",
+        "title": "JavaScript",
         "imageSrc": "https://skillicons.dev/icons?i=javascript"
     },
     {
-        "title": "Type Script",
+        "title": "TypeScript",
         "imageSrc": "https://skillicons.dev/icons?i=typescript"
     },
     {
@@ -24,7 +24,7 @@
         "imageSrc": "https://skillicons.dev/icons?i=nextjs"
     },
     {
-        "title": "Styled Comp.",
+        "title": "Styled Components",
         "imageSrc": "https://skillicons.dev/icons?i=styledcomponents"
     },
     {
@@ -44,15 +44,7 @@
         "imageSrc": "https://skillicons.dev/icons?i=nodejs"
     },
     {
-        "title": "Vite",
-        "imageSrc": "https://skillicons.dev/icons?i=vite"
-    },
-    {
-        "title": "Figma",
-        "imageSrc": "https://skillicons.dev/icons?i=figma"
-    },
-    {
-        "title": "SQLite",
-        "imageSrc": "https://skillicons.dev/icons?i=sqlite"
+        "title": "Prisma ORM",
+        "imageSrc": "https://skillicons.dev/icons?i=prisma"
     }
 ]
