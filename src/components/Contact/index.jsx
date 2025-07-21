@@ -81,7 +81,7 @@ export function Contact() {
 
                 <div className="profiles">
                     <h2>Perfis:</h2>
-                    <a href="https://www.linkedin.com/in/marcos-colella-esteves-952a3866/" target="_blank"><CiLinkedin /></a>
+                    <a href="https://www.linkedin.com/in/marcoscolella/" target="_blank"><CiLinkedin /></a>
                     <a href="https://github.com/ColellaDev" target="_blank"><AiOutlineGithub /></a>
                 </div>
 
