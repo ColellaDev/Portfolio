@@ -9,12 +9,14 @@ export const Container = styled.div`
 
   h1 {
     font-size: 2.5rem;
+    text-align: center;
   }
 
   .aboutMe {
     display: flex;
+    justify-content: center;
     align-items: center;
-    gap: 5rem;
+    gap: 4rem;
     margin-top: 8rem;
 
     @media (max-width: ${DEVICE.LG}) {
@@ -23,42 +25,39 @@ export const Container = styled.div`
   }
 
   .aboutImage {
+    flex: 1 1 28rem;
+    max-width: 30rem;
+
     img {
-      width: 32rem;
+      width: 100%;
+      max-width: 30rem;
       border: solid;
       border-color: ${({ theme }) => theme.COLORS.SECUNDARY};
       box-shadow: 0px 0px 10px 2px ${({ theme }) => theme.COLORS.SECUNDARY};
-
-      @media (max-width: ${DEVICE.MD}) {
-        width: 22rem;
-      }
+      border-radius: 1rem;
 
       @media (max-width: ${DEVICE.SM}) {
-        width: 19rem;
+        max-width: 30rem;
       }
     }
   }
 
   .aboutText {
-    width: 50rem;
+    flex: 1 1 50rem;
+    width: 100%;
+    max-width: 50rem;
+    max-height: 30rem;
     background-color: ${({ theme }) => theme.COLORS.CARD_PRIMARY};
-    border-color: ${({ theme }) => theme.COLORS.SECUNDARY};
+    border: 1px solid ${({ theme }) => theme.COLORS.SECUNDARY};
     box-shadow: 0px 0px 10px 2px ${({ theme }) => theme.COLORS.SECUNDARY};
     border-radius: 1rem;
     padding: 1rem;
 
-    @media (max-width: ${DEVICE.MD}) {
-      width: 42rem;
-    }
-
-    @media (max-width: ${DEVICE.SM}) {
-      width: 33rem;
-    }
-
     p {
-      font-size: 1.2rem;
+      font-size: clamp(1rem, 2.5vw, 1.2rem);
       margin-bottom: 1.5rem;
-      line-height: 1.6rem;
+      line-height: 1.6;
+      word-break: break-word;
     }
   }
 `;

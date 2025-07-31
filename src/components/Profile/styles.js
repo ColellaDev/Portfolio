@@ -11,6 +11,7 @@ export const Hero = styled.div`
   gap: 20rem;
 
   @media (max-width: ${DEVICE.LG}) {
+    flex-direction: column-reverse;
     margin-bottom: 30rem;
     gap: 3rem;
   }
@@ -27,7 +28,7 @@ export const Hero = styled.div`
 `;
 
 export const Welcome = styled.div`
-  width: 40rem;
+  max-width: 40rem;
   background-color: ${({ theme }) => theme.COLORS.CARD_PRIMARY};
   border-color: ${({ theme }) => theme.COLORS.SECUNDARY};
   box-shadow: 0px 0px 10px 2px ${({ theme }) => theme.COLORS.SECUNDARY};

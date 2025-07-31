@@ -40,7 +40,7 @@ export const HardSkills = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 40rem;
+  max-width: 40rem;
   gap: 1.5rem;
 
   .skill-card {
@@ -78,7 +78,7 @@ export const HardSkills = styled.div`
 `;
 
 export const Softskills = styled.div`
-  width: 24rem;
+  max-width: 24rem;
   
 
   @media (max-width: ${DEVICE.MD}) {
