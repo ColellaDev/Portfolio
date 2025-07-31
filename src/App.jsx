@@ -7,6 +7,7 @@ import { Skills } from './components/Skills';
 import { Projects } from './components/Projects';
 import { Contact } from './components/Contact';
 import { Blur } from "./components/Blur"
+import { BackToTopButton } from './components/BackToTopButton';
 
 export function App() {
   return (
@@ -18,6 +19,7 @@ export function App() {
       <Projects/>
       <Contact/>
       <Blur/>
+      <BackToTopButton />
       </>
   );
 }
