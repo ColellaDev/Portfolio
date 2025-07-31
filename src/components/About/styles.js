@@ -24,7 +24,7 @@ export const Container = styled.div`
 
   .aboutImage {
     img {
-      width: 29rem;
+      width: 32rem;
       border: solid;
       border-color: ${({ theme }) => theme.COLORS.SECUNDARY};
       box-shadow: 0px 0px 10px 2px ${({ theme }) => theme.COLORS.SECUNDARY};
@@ -41,6 +41,11 @@ export const Container = styled.div`
 
   .aboutText {
     width: 50rem;
+    background-color: ${({ theme }) => theme.COLORS.CARD_PRIMARY};
+    border-color: ${({ theme }) => theme.COLORS.SECUNDARY};
+    box-shadow: 0px 0px 10px 2px ${({ theme }) => theme.COLORS.SECUNDARY};
+    border-radius: 1rem;
+    padding: 1rem;
 
     @media (max-width: ${DEVICE.MD}) {
       width: 42rem;
@@ -52,7 +57,7 @@ export const Container = styled.div`
 
     p {
       font-size: 1.2rem;
-      margin-bottom: 2rem;
+      margin-bottom: 1.5rem;
       line-height: 1.6rem;
     }
   }

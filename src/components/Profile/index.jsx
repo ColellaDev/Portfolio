@@ -46,7 +46,6 @@ export function Home() {
                        </Links>
                 </Welcome>
              </Slide>
-                
             <Slide direction="right">
                 <Avatar>
                      { TITLE == "dark" ? 

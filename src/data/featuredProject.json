@@ -5,12 +5,10 @@
     "challenges": [
         "Integrar e consumir uma API externa (ESPN) para ingestão de dados, validando-os com Zod antes de persistir no banco de dados.",
         "Implementar um sistema de autenticação seguro utilizando JWT e hashing de senhas com Bcrypt.",
-        "Desenvolver uma API robusta com as Route Handlers do Next.js para gerenciar usuários, jogos e palpites.",
         "Criar formulários completos com validação de dados utilizando React Hook Form e Zod.",
-        "Estruturar o banco de dados e garantir a segurança dos tipos com Prisma ORM, facilitando a manutenção e a escalabilidade.",
-        "Construir uma interface moderna e responsiva com Tailwind CSS, garantindo uma ótima experiência em qualquer dispositivo."
+        "Estruturar o banco de dados e garantir a segurança dos tipos com Prisma ORM, facilitando a manutenção e a escalabilidade."
     ],
-    "techs": ["Next.js", "React", "TypeScript", "Tailwind CSS", "Prisma", "Zod", "React Hook Form", "API Rest"],
+    "techs": ["Next.js", "Tailwind CSS", "Prisma", "Zod", "React Hook Form"],
     "demo": "https://github.com/ColellaDev/bolao-oval",
     "code": "https://github.com/ColellaDev/bolao-oval"
 }

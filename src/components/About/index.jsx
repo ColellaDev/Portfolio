@@ -33,16 +33,19 @@ export function About() {
                 <div className="aboutText">
                     <Zoom cascade="true" duration="700">
                     <p>
-                     Sou <span>bacharel em Sistemas de Informação</span> e sempre fui apaixonado por tecnologia e programação.
-                     Apesar de ter seguido por outros caminhos profissionais, recentemente fiz uma transição de carreira para seguir minha verdadeira vocação.
+                    Sou <span>formado em Sistemas de Informação</span> e, após anos atuando em áreas como marketing e gestão,
+                    decidi seguir minha verdadeira vocação e migrei para o desenvolvimento de software, unindo minha
+                    paixão por tecnologia à experiência em <span>comunicação</span>, <span>organização</span> e <span>trabalho em equipe</span>.
                     </p>
                     <p>
-                    Minha trajetória profissional me proporcionou uma ampla <span>vivência</span>, trabalhei em diversas equipes, interagi com clientes de diferentes perfis
-                     e enfrentei desafios que exigiam soluções urgentes e eficazes. Essas experiências me permitiram aprimorar <span>habilidades essenciais</span> para um Desenvolvedor.
+                    Minha stack principal é <span>React</span>, <span>TypeScript</span>, <span>Next.js</span> e <span>React Native</span>. Tenho experiência no
+                    desenvolvimento de interfaces responsivas, consumo de APIs RESTful, gerenciamento de estado com
+                    Context API, utilização de hooks, metodologias ágeis (Scrum), noções de UX/UI e uso do Figma,
+                    versionamento com Git e aplicação de boas práticas para um código limpo e escalável.
                     </p>
                     <p>
-                    Adquiri experiência através de diversos projetos, cursos e formações, minha stack principal é <span>TypeScript</span>, <span>React</span> e <span>React Native</span>,
-                     mas estou sempre em busca de novas tecnologias, atualmente procuro uma posição como Desenvolvedor Júnior.
+                    Desenvolvi diversos projetos práticos, concluí cursos e formações e sigo me atualizando
+                    constantemente. Atualmente, busco uma posição como <span>Desenvolvedor Júnior</span>.
                     </p>
                     </Zoom>
                 </div>

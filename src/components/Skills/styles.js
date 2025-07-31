@@ -15,7 +15,7 @@ export const Container = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20rem;
+    gap: 18rem;
     margin-top: 8rem;
 
     @media (max-width: ${DEVICE.LG}) {
@@ -61,7 +61,7 @@ export const HardSkills = styled.div`
 
     &:hover {
       border-color: ${({ theme }) => theme.COLORS.SECUNDARY};
-      box-shadow: 0 0 20px -5px ${({ theme }) => theme.COLORS.SECUNDARY_100};
+      box-shadow: 0px 0px 10px 2px ${({ theme }) => theme.COLORS.SECUNDARY};
     }
 
     img {
@@ -79,6 +79,7 @@ export const HardSkills = styled.div`
 
 export const Softskills = styled.div`
   width: 24rem;
+  
 
   @media (max-width: ${DEVICE.MD}) {
     width: 90%;
@@ -86,21 +87,22 @@ export const Softskills = styled.div`
 
   ul {
     list-style: none;
-    padding: 0;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
   }
 
   li {
-    background: ${({ theme }) => theme.COLORS.BACKGROUND_700};
+    width: 21rem;
+    background-color: ${({ theme }) => theme.COLORS.CARD_PRIMARY};
+    border-color: ${({ theme }) => theme.COLORS.SECUNDARY};
+    box-shadow: 0 0 20px -5px ${({ theme }) => theme.COLORS.SECUNDARY_100};
     border: 1px solid transparent;
-    border-radius: 0.8rem;
+    border-radius: 1rem;
     padding: 1rem;
     display: flex;
     align-items: center;
     gap: 1.5rem;
-    font-size: 1.2rem;
     font-weight: 500;
     cursor: default;
     transition: all 0.3s ease-in-out;
@@ -114,7 +116,7 @@ export const Softskills = styled.div`
     &:hover {
       transform: translateY(-5px) scale(1.02);
       border-color: ${({ theme }) => theme.COLORS.SECUNDARY};
-      box-shadow: 0 0 20px -5px ${({ theme }) => theme.COLORS.SECUNDARY_100};
+      box-shadow: 0px 0px 10px 2px ${({ theme }) => theme.COLORS.SECUNDARY};
       svg {
         color: ${({ theme }) => theme.COLORS.SECUNDARY};
         transform: scale(1.1);

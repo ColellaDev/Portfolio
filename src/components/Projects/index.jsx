@@ -46,7 +46,7 @@ export function Projects() {
                     <h3>{featuredProject.title}</h3>
                     <p className="long-description">{featuredProject.longDescription}</p>
                     
-                    <h4>Desafios e Soluções:</h4>
+                    <h4>Desafios:</h4>
                     <ul>
                         {featuredProject.challenges.map((challenge, id) => (
                             <li key={id}><FaCheckCircle color="#4ECA64"/> {challenge}</li>
@@ -64,6 +64,39 @@ export function Projects() {
                 </div>
             </Slide>
         </div>
+
+         <h2>Web</h2>
+
+         <div className="projectsCard" >   
+            {
+            projects.map((projects, id) => {
+                return (
+                    <Zoom key={id}>
+                    <div className="card"  data-tilt>
+                            
+                        <img src={getImageUrl(projects.imageSrc)} alt={`Imagem do Projeto ${projects.title}`}/>
+                        <h3>{projects.title}</h3>
+                        <p>{projects.description}</p>
+                         {projects.techs && (
+                         <div className="techs">
+                            {projects.techs.map((tech, id) => (
+                                <span className="tech-tag" key={id}>
+                                    {tech}
+                                </span>
+                            ))}
+                         </div>
+                         )}
+                        <div className="links">
+                            <a href={projects.demo} target="_blank">Demo</a>
+                            <a href={projects.code} target="_blank">Código</a>
+                        </div>
+                     </div>
+                    </Zoom>
+                )
+            })
+            }
+         
+         </div>
 
          <h2>Mobile</h2>
 
@@ -100,38 +133,6 @@ export function Projects() {
             })
             }
         </div>
-
-         <h2>Web</h2>
-
-         <div className="projectsCard" >   
-            {
-            projects.map((projects, id) => {
-                return (
-                    <Zoom key={id}>
-                    <div className="card"  data-tilt>
-                            
-                        <img src={getImageUrl(projects.imageSrc)} alt={`Imagem do Projeto ${projects.title}`}/>
-                        <h3>{projects.title}</h3>
-                        <p>{projects.description}</p>
-                         {projects.techs && (
-                         <div className="techs">
-                            {projects.techs.map((tech, id) => (
-                                <span className="tech-tag" key={id}>
-                                    {tech}
-                                </span>
-                            ))}
-                         </div>
-                         )}
-                        <div className="links">
-                            <a href={projects.demo} target="_blank">Demo</a>
-                            <a href={projects.code} target="_blank">Código</a>
-                        </div>
-                     </div>
-                    </Zoom>
-                )
-            })
-            }
-         </div>
 
         </Container>
     )

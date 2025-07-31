@@ -4,8 +4,10 @@ export default {
     COLORS: {
       
       BACKGROUND: "#F5F5F5",
+      
       CARD: "#E6D5FF",
       TAG: "#C3AEE6",
+      CARD_PRIMARY: "#F5F5F5",
       
       PRIMARY: "#10002B",
       SECUNDARY: "#4c007d",

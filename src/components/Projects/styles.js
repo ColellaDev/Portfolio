@@ -29,10 +29,11 @@ export const Container = styled.div`
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
     align-items: center;
-    padding: 2rem;
-    margin: 4rem 2rem;
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid ${({ theme }) => theme.COLORS.GRAY};
+    padding: 1rem;
+    margin: 3rem 1rem;
+    background-color: ${({ theme }) => theme.COLORS.CARD_PRIMARY};
+    border: 1px solid;
+    border-color: ${({ theme }) => theme.COLORS.SECUNDARY};
     border-radius: 1rem;
     width: 90%;
     max-width: 75rem;

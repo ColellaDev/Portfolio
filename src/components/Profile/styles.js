@@ -27,7 +27,12 @@ export const Hero = styled.div`
 `;
 
 export const Welcome = styled.div`
-  width: 32rem;
+  width: 40rem;
+  background-color: ${({ theme }) => theme.COLORS.CARD_PRIMARY};
+  border-color: ${({ theme }) => theme.COLORS.SECUNDARY};
+  box-shadow: 0px 0px 10px 2px ${({ theme }) => theme.COLORS.SECUNDARY};
+  border-radius: 1rem;
+  padding: 2rem;
 
   span {
     font-size: 2rem;
@@ -100,6 +105,7 @@ export const Avatar = styled.div`
     width: 20rem;
     border-radius: 31% 69% 73% 27% / 35% 58% 42% 65%;
     border: solid;
-    box-shadow: 14px 0px 41px 19px rgba(62, 66, 66, 0.22);
+    border-color: ${({ theme }) => theme.COLORS.SECUNDARY};
+    box-shadow: 0px 0px 10px 2px ${({ theme }) => theme.COLORS.SECUNDARY};
   }
 `;
