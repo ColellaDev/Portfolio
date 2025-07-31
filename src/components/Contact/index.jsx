@@ -62,7 +62,7 @@ export function Contact() {
                 <div className="info">
                     <h2>Me contate diretamente:</h2>
                      <div className="contactMe">
-                         <FaWhatsapp/> 
+                         <FaWhatsapp style={{color: '#25D366'}}/> 
                          <a href="https://wa.me/5511994642726" target="_blank">(11) 99464-2726</a>
                      </div>
                     <div className="contactMe">

@@ -25,6 +25,13 @@ export const Container = styled.div`
 `;
 
 export const Profile = styled.div`
+  width: 25rem;
+  background-color: ${({ theme }) => theme.COLORS.CARD_PRIMARY};
+  border-color: ${({ theme }) => theme.COLORS.SECUNDARY};
+  box-shadow: 0px 0px 10px 2px ${({ theme }) => theme.COLORS.SECUNDARY};
+  border-radius: 1rem;
+  padding: 1rem;
+
   p {
     font-size: 1.2rem;
   }
@@ -52,6 +59,7 @@ export const Profile = styled.div`
 
         &:hover {
           filter: brightness(0.8);
+          //color: #25D366;
         }
       }
 
