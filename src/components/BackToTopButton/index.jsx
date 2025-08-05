@@ -30,7 +30,7 @@ export function BackToTopButton() {
 
   return (
     <ScrollButton 
-      isVisible={isVisible} 
+      $isVisible={isVisible} 
       onClick={scrollToTop}
       title="Voltar ao topo"
     >

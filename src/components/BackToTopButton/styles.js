@@ -21,9 +21,9 @@ export const ScrollButton = styled.button`
   cursor: pointer;
   z-index: 1000; 
   
-  opacity: ${({ isVisible }) => (isVisible ? 1 : 0)};
-  transform: ${({ isVisible }) => (isVisible ? 'scale(1)' : 'scale(0)')};
-  pointer-events: ${({ isVisible }) => (isVisible ? 'auto' : 'none')};
+  opacity: ${({ $isVisible }) => ($isVisible ? 1 : 0)};
+  transform: ${({ $isVisible }) => ($isVisible ? 'scale(1)' : 'scale(0)')};
+  pointer-events: ${({ $isVisible }) => ($isVisible ? 'auto' : 'none')};
   transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
 
   &:hover {

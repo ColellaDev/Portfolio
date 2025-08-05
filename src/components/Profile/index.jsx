@@ -23,7 +23,7 @@ export function Home() {
 
                      <ReactTyped
                         strings={[
-                        "Desenvolvedor FullStack",
+                        "Desenvolvedor Front End",
                         "Apaixonado por programação"
                          ]}
                          typeSpeed={60}
@@ -32,7 +32,7 @@ export function Home() {
                      />
                  
                      <p>
-                      Desenvolvedor FullStack focado em criar experiências de usuário fluidas e responsivas. Tenho
+                      Desenvolvedor Front End focado em criar experiências de usuário fluidas e responsivas. Tenho
                       experiência na construção de aplicações web modernas, desde a implementação de designs até a
                       integração com APIs RESTful, sempre buscando as melhores práticas para um código limpo e escalável.
                      </p>

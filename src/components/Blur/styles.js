@@ -8,7 +8,7 @@ export const HomeLeft = styled.div`
   top: -128px;
   left: -10vw;
   border-radius: 764px;
-  background: ${({ background }) => background};
+  background: ${({ $background }) => $background};
   filter: blur(100px);
   z-index: -1;
 `;
@@ -21,7 +21,7 @@ export const HomeRight = styled.div`
   top: 246px;
   right: -25vw;
   border-radius: 764px;
-  background: ${({ background }) => background};
+  background: ${({ $background }) => $background};
   filter: blur(100px);
   z-index: -1;
 `;
@@ -34,7 +34,7 @@ export const SkillsLeft = styled.div`
   top: 1250px;
   left: -3vw;
   border-radius: 764px;
-  background: ${({ background }) => background};
+  background: ${({ $background }) => $background};
   filter: blur(100px);
   z-index: -1;
 `;
@@ -47,7 +47,7 @@ export const ProjectsRight = styled.div`
   top: 1400px;
   right: -25vw;
   border-radius: 764px;
-  background: ${({ background }) => background};
+  background: ${({ $background }) => $background};
   filter: blur(100px);
   z-index: -1;
 `;
@@ -60,7 +60,7 @@ export const ProjectsLeft = styled.div`
   top: 2050px;
   left: -10vw;
   border-radius: 764px;
-  background: ${({ background }) => background};
+  background: ${({ $background }) => $background};
   filter: blur(100px);
   z-index: -1;
 `;
@@ -73,7 +73,7 @@ export const ContactRight = styled.div`
   top: 2550px;
   right: -25vw;
   border-radius: 664px;
-  background: ${({ background }) => background};
+  background: ${({ $background }) => $background};
   filter: blur(100px);
   z-index: -1;
 `;
@@ -86,7 +86,7 @@ export const ContactLeft = styled.div`
   top: 2800px;
   left: -15vw;
   border-radius: 764px;
-  background: ${({ background }) => background};
+  background: ${({ $background }) => $background};
   filter: blur(100px);
   z-index: -1;
 `;
@@ -99,7 +99,7 @@ export const ContactRightExtra = styled.div`
   top: 3750px;
   right: -25vw;
   border-radius: 664px;
-  background: ${({ background }) => background};
+  background: ${({ $background }) => $background};
   filter: blur(100px);
   z-index: -1;
 `;
@@ -112,7 +112,7 @@ export const ContactLeftExtra = styled.div`
   top: 3600px;
   left: -15vw;
   border-radius: 764px;
-  background: ${({ background }) => background};
+  background: ${({ $background }) => $background};
   filter: blur(100px);
   z-index: -1;
 `;
@@ -125,7 +125,7 @@ export const FinalLeft = styled.div`
   top: 6200px;
   left: 25vw;
   border-radius: 764px;
-  background: ${({ background }) => background};
+  background: ${({ $background }) => $background};
   filter: blur(100px);
   z-index: -1;
 `;
