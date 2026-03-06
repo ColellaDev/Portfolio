@@ -34,7 +34,7 @@ export function Home() {
                      <p>
                       Desenvolvedor Front End focado em criar experiências de usuário fluidas e responsivas. Tenho
                       experiência na construção de aplicações web modernas, desde a implementação de designs até a
-                      integração com APIs RESTful, sempre buscando as melhores práticas para um código limpo e escalável.
+                      integração com APIs RESTful, sempre buscando as melhores práticas para um código limpo, performático e escalável.
                      </p>
                 
                        <Links>

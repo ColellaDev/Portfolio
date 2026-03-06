@@ -33,19 +33,24 @@ export function About() {
                 <div className="aboutText">
                     <Zoom cascade="true" duration="700">
                     <p>
-                    Sou <span>formado em Sistemas de Informação</span> e, após anos atuando em áreas como marketing e gestão,
-                    decidi seguir minha verdadeira vocação e migrei para o desenvolvimento de software, unindo minha
-                    paixão por tecnologia à experiência em <span>comunicação</span>, <span>organização</span> e <span>trabalho em equipe</span>.
+                    Sou <span>formado em Sistemas de Informação</span> e atualmente atuo como
+                    <span> Desenvolvedor Front-End</span>, trabalhando no desenvolvimento de uma aplicação
+                    web de gerenciamento comercial. Minha jornada até a tecnologia passou por áreas
+                    como marketing e gestão, experiências que contribuíram para desenvolver
+                    habilidades importantes como <span>comunicação</span>, <span>organização</span> e
+                     <span> trabalho em equipe</span>.
                     </p>
                     <p>
                     Minha stack principal é <span>React</span>, <span>TypeScript</span>, <span>Next.js</span> e <span>React Native</span>. Tenho experiência no
-                    desenvolvimento de interfaces responsivas, consumo de APIs RESTful, gerenciamento de estado com
-                    Context API, utilização de hooks, metodologias ágeis (Scrum), noções de UX/UI e uso do Figma,
-                    versionamento com Git e aplicação de boas práticas para um código limpo e escalável.
+                    desenvolvimento de interfaces responsivas, consumo de APIs RESTful, gerenciamento de estado,
+                     utilização de hooks, metodologias ágeis (Scrum), noções de UX/UI e uso do Figma,
+                    versionamento com Git e aplicação de boas práticas para construção de
+                    <span> código limpo, escalável e de alta performance</span>.
                     </p>
                     <p>
-                    Desenvolvi diversos projetos práticos, concluí cursos e formações e sigo me atualizando
-                    constantemente. Atualmente, busco uma posição como <span>Desenvolvedor Júnior</span>.
+                    Hoje meu foco é <span>continuar evoluindo</span> como desenvolvedor, ampliando meus conhecimentos
+                    tanto no front-end quanto no back-end e contribuindo para a construção de
+                    produtos digitais de qualidade.
                     </p>
                     </Zoom>
                 </div>
