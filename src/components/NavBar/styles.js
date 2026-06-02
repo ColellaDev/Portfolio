@@ -32,6 +32,7 @@ export const Container = styled.div`
     font-weight: 600;
 
     a {
+      display: inline-block;
       cursor: pointer;
       color: ${({ theme }) => theme.COLORS.PRIMARY};
       padding: 0.5rem 1rem;
@@ -41,11 +42,18 @@ export const Container = styled.div`
       &.active {
         background-color: ${({ theme }) => theme.COLORS.SECUNDARY_100};
         color: ${({ theme }) => theme.COLORS.BACKGROUND};
+
+        &:hover {
+          color: ${({ theme }) => theme.COLORS.BACKGROUND};
+          background-color: ${({ theme }) => theme.COLORS.SECUNDARY_100};
+          opacity: 0.9;
+        }
       }
 
       &:hover {
-        color: ${({ theme }) => theme.COLORS.PRIMARY};
-        background-color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
+        color: ${({ theme }) => theme.COLORS.SECUNDARY};
+        background-color: ${({ theme }) => theme.COLORS.TAG};
+        transform: translateY(-2px);
       }
     }
   }

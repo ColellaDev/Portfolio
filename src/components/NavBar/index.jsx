@@ -13,10 +13,7 @@ const { TITLE, COLORS } = useTheme()
 const {toggleTheme} = useContext(ThemeContext)
 
 const [isMenuVisible, setIsMenuVisible] = useState(false);
-const [activeSection, setActiveSection] = useState("Home");
-const handleSetActive = (section) => {
-  setActiveSection(section);
-};
+
 const toggleMenu = () => {
   setIsMenuVisible(!isMenuVisible);
 };
