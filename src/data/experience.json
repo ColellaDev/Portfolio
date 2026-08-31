@@ -1,0 +1,47 @@
+[
+  {
+    "company": "Premyum Sistemas",
+    "position": "Desenvolvedor Front End",
+    "period": "Setembro/2025 - Atual",
+    "description": "Atuo no desenvolvimento e manutenção do Front-End de uma aplicação web de gerenciamento comercial utilizada por várias empresas do setor varejista, sendo o principal responsável pela evolução da aplicação e implementação de novas funcionalidades.",
+    "technologies": [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Zustand",
+      "TanStack Query",
+      "Zod"
+    ],
+    "achievements": [
+      "Desenvolvimento e evolução de novas funcionalidades para atender às necessidades do negócio",
+      "Integração com APIs REST e implementação de filtros, paginação e relatórios",
+      "Aplicação de componentização, gerenciamento de estado e reutilização de código",
+      "Implementação de formulários e validações utilizando React Hook Form e Zod",
+      "Otimização contínua de performance e eficiência da aplicação"
+    ]
+  },
+{
+  "company": "Ephiciência Express",
+  "position": "Sócio Proprietário",
+  "period": "Setembro/2013 - Maio/2025",
+  "description": "Atuação na gestão do negócio, liderança de equipe administrativa, relacionamento com clientes e otimização de processos. A experiência contribuiu para o desenvolvimento de habilidades de comunicação, organização, resolução de problemas e gerenciamento de prioridades, que hoje aplico no desenvolvimento de software e no trabalho em equipe.",
+  "technologies": [],
+  "achievements": [
+    "Resolução de problemas operacionais e identificação de oportunidades para otimização de processos",
+    "Gerenciamento de tempo e prioridades em ambientes de alta demanda",
+    "Comunicação eficaz com diferentes áreas e clientes, promovendo um ambiente colaborativo"
+  ]
+},
+{
+  "company": "Semp Toshiba",
+  "position": "Supervisor de Vendas e Marketing",
+  "period": "Novembro/2008 - Agosto/2013",
+  "description": "Atuação na coordenação de equipes de vendas e marketing, desenvolvimento de estratégias comerciais e acompanhamento de resultados. A experiência proporcionou uma base sólida em comunicação, análise de dados e visão estratégica, competências que contribuem para minha atuação como desenvolvedor.",
+  "technologies": [],
+  "achievements": [
+    "Planejamento e condução de reuniões semanais com foco em metas, desempenho e ações corretivas",
+    "Análise de dados e feedbacks para aprimorar campanhas e otimizar resultados",
+    "Elaboração de relatórios estratégicos com foco em performance de vendas e impacto no mercado"
+  ]
+}
+]

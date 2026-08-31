@@ -4,6 +4,7 @@ import { NavBar } from './components/NavBar';
 import { Home } from './components/Profile';
 import { About } from './components/About';
 import { Skills } from './components/Skills';
+import { Experience } from './components/Experience';
 import { Projects } from './components/Projects';
 import { Contact } from './components/Contact';
 import { Blur } from "./components/Blur"
@@ -15,6 +16,7 @@ export function App() {
       <NavBar/>
       <Home/>
       <About/>
+      <Experience/>
       <Skills/>
       <Projects/>
       <Contact/>
