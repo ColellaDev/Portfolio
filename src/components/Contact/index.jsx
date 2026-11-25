@@ -31,13 +31,21 @@ export function Contact() {
             message: message
         }
       
-        emailjs.send("service_kudwu8k", "template_5cg0kxq", templateParams, "HthGvLxBk-DdSwwa8")
+        emailjs.send(
+            "service_kudwu8k",
+            "template_5cg0kxq", 
+            templateParams, 
+            {
+             publicKey: "_O1gvfamJIz3JuIoC",
+            }
+        )
         .then(() => {
             toast.success('E-mail enviado!')
             setName("")
             setEmail("")
             setMessage("")
         }, (err) => {
+            toast.error('Erro ao enviar')
             console.log("ERRO: ", err)
         })
         
